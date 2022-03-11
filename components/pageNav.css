@@ -89,6 +89,7 @@ body{
 
 .modeIcon{
     position: fixed;
+    z-index: 50;
     height: 35px;
     right: 5rem;
     top: 2rem;
@@ -113,7 +114,9 @@ nav{
     color: var(--nav-item-color);
 }
 
-.nav_item:hover, .icon:hover{
+
+
+.nav_item:hover, .icon:hover, .active{
     color: var(--theme-color);
     cursor: pointer;
 }
@@ -154,6 +157,11 @@ nav{
     color: var(--theme-color);
 }
 
+.class_name{
+    color: var(--primary-color-cl);
+    font-weight: 600;
+}
+
 .span_heading{
     font-family: 'Raleway', sans-serif;
 }
@@ -182,11 +190,10 @@ nav{
 
 .show_avatar{
     background-color: rgb(173, 183, 195);
-    padding: 2rem 0;
+    padding: 0.5rem 0;
     border-radius: 0.7rem;
     display: flex;
-    justify-content: space-evenly;
-    width: 400px;
+    width: 100%;
     margin: 1rem 0 2rem 0;
 }
 
@@ -196,13 +203,13 @@ nav{
     margin: 1rem 0 2rem 0;
     display: block;
     padding: 1rem;
-    width: 550px;
+    width: 100%;
 }
 
-.avatar{
+/* .avatar{
     width: 60px;
     border-radius: 0.5rem;
-}
+} */
 
 .rounded{
     border-radius: 50%;

@@ -107,6 +107,32 @@ a{
     width: 25rem;
 }
 
+.card7{
+    width: 32rem;
+}
+
+.img_bg{
+    background-color: var(--info-bg);
+    border-top-left-radius: 0.7rem;
+    width: 30%;
+}
+
+.original_price{
+    text-decoration: line-through;
+    font-weight: bold;
+    margin: 0.2rem 0.4rem 0.2rem 0;
+    display: inline-block;
+}
+
+.yellow{
+    color: var(--warning-dark);
+}
+
+.discount_price{
+    font-weight: bold;
+    color: var(--error-dark);
+}
+
 .section1{
     display: flex;
 }
