@@ -1,0 +1,63 @@
+.avatar_status, .avatar_badge{
+    position: relative;
+}
+
+.avatar{
+    width: 3.75rem;
+    border-radius: 100%;
+}
+
+.squared{
+    border-radius: 0.5rem;
+}
+
+.status_badge{
+    position: absolute;
+    border-radius: 100%;
+    height: 0.938rem;
+    width: 0.938rem;
+}
+
+.status_badge_sq{
+    top: 2.9rem;
+    right: -0.3rem;
+}
+
+.status_badge_rnd{
+    top: 2.9rem;
+    right: 0.1rem;
+}
+
+.badge_online{
+    background-color: var(--online-color);
+}
+
+.badge_offline{
+    background-color: var(--offline-color);
+}
+
+.status_badge_sq_abv{
+    bottom: 3.3rem;
+    right: -0.3rem;
+}
+
+.status_badge_rnd_abv{
+    bottom: 3rem;
+    right: -0.1rem;
+}
+
+.icon_badge{
+    font-size: 3.5rem;
+    color: var(--primary-color);
+} 
+
+.noti_badge{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    font-size: 0.9rem;
+    background-color: var(--offline-color);
+    border-radius: 100%;
+    padding: 0.2rem;
+    border: 1px solid var(--white-color);
+}

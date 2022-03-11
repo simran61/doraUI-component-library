@@ -1,0 +1,46 @@
+:root{
+    --grey-text: rgb(83, 83, 83);
+    --secondary-color: #FD2155;
+    --theme-color: #2B7BB8;
+    --dark-nav-color: rgb(17, 17, 17);
+    --dark-bg: rgb(26, 26, 26);
+    --tagline-color: rgb(179, 177, 177);
+    --scrollbar-color: #1d547e;
+    --nav-item-color: rgb(121, 120, 120);
+    --text-color: white;
+    --primary-heading-color: white;
+    --white-color: white;
+    --black-color: black;
+    --shadow-color: rgba(0, 0, 0, 0.7);
+    --white-smoke-color: whitesmoke;
+    --border-color: rgb(49, 49, 49);
+
+    --primary-dark: #2670a8;
+    --success-dark: #0e6e13;
+    --warning-dark: #C19612;
+    --danger-dark: #a31313;
+    --dark-dark: #212122;
+
+    --primary-color: #2B7BB8;
+    --online-color: rgb(27, 172, 51);
+    --offline-color: rgb(250, 52, 52);
+
+    --red-noti-color: rgb(250, 52, 52);
+
+    --success-bg: #C6F6D5;
+    --success-shadow:#2ea388;
+    --success-dark: #3AD4AF;
+
+    --warning-bg: #FEEBC8;
+    --warning-shadow: #b88c2d;
+    --warning-dark: #FDC040;
+
+    --info-bg: #ddebfb;
+    --info-shadow: #0a090f;
+    --info-dark: #2A2552;
+
+    --error-bg: #FED7D7;
+    --error-shadow:#8b2929;
+    --error-dark: #FD4E4E;
+}
+

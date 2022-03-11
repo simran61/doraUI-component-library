@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider | DoraUI</title>
+    <link rel="stylesheet" href="../pageNav.css">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="icon" href="./assets/DoraUI.png" type="image/x-icon">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt=""></a>
+
+     <!-- NAV BAR STARTS -->
+     <nav>
+        <div class="logo">
+            <a href="../../index.html"><img src="../../assets/1.png" alt="" class="logo_img"></a>
+        </div>
+
+        <ul class="nav_list">
+            <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
+            <li><a href="../Avatars/avatars.html" class="nav_item">Avatars</a></li>
+            <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
+            <li><a href="../Buttons/buttons.html" class="nav_item">Buttons</a></li>
+            <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
+            <li><a href="../Images/images.html" class="nav_item">Images</a></li>
+            <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
+            <li><a href="../Text_Utilities/text_utilities.html" class="nav_item">Text Utilities</a></li>
+            <li><a href="../Lists/lists.html" class=" nav_item">Lists</a></li>
+            <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
+            <li><a href="../Navigation/navigation.html" class="nav_item">Navigation</li>
+            <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
+            <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
+            <li><a href="../Grid/grid.html" class="nav_item">Simplified Grid</a></li>
+            <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
+        </ul>
+
+        <div class="social_icons">
+            <a class="icon" target="_blank" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a>
+            <a class="icon" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="icon" target="_blank" href="https://simran-gangwani.netlify.app/"><i class="fas fa-code"></i></a>
+            <a class="icon" target="_blank" style="margin-bottom: 0px;" href="https://twitter.com/SimranGangwani3"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <!-- SLIDER DIV STARTS -->
+        <div class="button_div" id="button_div">
+            <div class="primary_heading">
+                <span class="span_heading brand_name">S</span>
+                <span class="span_heading text_theme">l</span>
+                <span class="span_heading text_theme">i</span>
+                <span class="span_heading text_theme">d</span>
+                <span class="span_heading text_theme">e</span>
+                <span class="span_heading text_theme">r</span>
+            </div>
+
+            <p class="padding_tb_0_7">Sliders are used to decide range for something like sound in videos, price in
+                shopping sites, etc.</p>
+
+            <!-- DEFAULT SLIDER STARTS-->
+            <div id="default_button_div">
+                <h2 class="theme_color mr_top_1_5">Default Slider</h2>
+                <div class="show_avatar show_alert">
+                    <div class="box">
+                        <div class="slider">
+                            <input type="range" min="0" max="100" value="20" class="rangeSlider">
+                        </div>
+                        <div class="value">100</div>
+                    </div>
+                </div>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=32px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522box%2522%253E%250A%2509%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252220%2522%2520class%253D%2522rangeSlider%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E100%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 751px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=32px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520slider%253D%2520document.querySelector%28%27.rangeSlider%27%29%253B%250Aconst%2520value%253D%2520document.querySelector%28%27.value%27%29%253B%250A%250Avalue.innerText%253D%2520slider.value%253B%250A%250Aslider.oninput%2520%253D%2520function%28%29%257B%250A%2520%2520%2520%2520value.innerText%253Dthis.value%250A%257D"
+                    style="width: 549px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- DEAFULT SLIDER ENDS-->
+
+
+        </div>
+    </div>
+
+    <script src="./slider.js">
+    </script>
+    <script src="../themeToggle.js"></script>
+    <!-- <script src="../../app.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.avatar{
+    width: 3.75rem;
+    border-radius: 100%;
+}
+
+.squared{
+    border-radius: 0.5rem;
+}
+
+.av_sm{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.av_md{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.av_lg{
+    width: 5rem;
+    height: 5rem;
+}
+
+.av_xl{
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.avatar_badge{
+    position: relative;
+}
+
+.noti_badge{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    font-size: 0.9rem;
+    background-color: var(--red-noti-color);
+    border-radius: 50%;
+    padding: 0.2rem;
+    border: 0.063rem solid var(--white-color);
+}
+
+.noti_icon{
+    position: absolute;
+    top: -0.6rem;
+    right: -0.4rem;
+    font-size: 1.5rem;
+    color: var(--red-noti-color);
+}

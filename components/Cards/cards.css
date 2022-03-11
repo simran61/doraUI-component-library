@@ -1,0 +1,122 @@
+.card{
+    width: 20.625rem;
+    height: fit-content;
+    border-radius: 0.7rem;
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 0.313rem var(--shadow-color);
+    margin: 1rem;
+}
+
+.card_img{
+    height: 11.25rem;
+}
+
+.card_img img{
+    width: 20.635rem;
+    height: 11.25rem;
+    border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.relative{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    background-color: var(--offline-color);
+    padding: 0.2rem 1rem;
+
+}
+
+.card_content{
+    padding: 0 1rem;
+    font-size: 0.9rem;
+}
+
+.card_headings{
+    padding: 1rem 0;
+    color: var(--black-color);
+}
+
+.tagline{
+    margin-top: 0.3rem;
+}
+
+.desc{
+    color: var(--black-color);
+}
+
+.card_links{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_links a:first-child{
+    margin-right: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.grey_text{
+    color: var(--nav-item-color);
+}
+
+.icon_links a{
+    margin-left: 1.063rem;
+    font-size: 1.2rem;
+}
+
+/* card 3 */
+.right_end{
+    margin-left: auto;
+}
+
+/* card 4 */
+.card4{
+    position: relative;
+}
+
+.above_img{
+    position: absolute;
+    top: 6.563rem;
+    color: var(--white-color);
+}
+
+.margin_top_sm{
+    margin-top: 0.94rem;
+}
+
+/* card 5 */
+.card5 .fix_bRadius{
+    border-radius: 0;
+}
+
+.c5_card_headings{
+    padding: 1rem;
+    color: var(--black-color);
+}
+
+/* card 6 */
+.card6{
+    width: 25rem;
+}
+
+.section1{
+    display: flex;
+}
+
+.c6_card_img img{
+    height: 6.25rem;
+    width: 6.25rem;
+}
+
+.padding_sm{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

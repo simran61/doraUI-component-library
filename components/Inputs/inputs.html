@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs | DoraUI</title>
+    <link rel="stylesheet" href="../pageNav.css">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="icon" href="./assets/DoraUI.png" type="image/x-icon">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt=""></a>
+
+     <!-- NAV BAR STARTS -->
+     <nav>
+        <div class="logo">
+            <a href="../../index.html"><img src="../../assets/1.png" alt="" class="logo_img"></a>
+        </div>
+
+        <ul class="nav_list">
+            <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
+            <li><a href="../Avatars/avatars.html" class="nav_item">Avatars</a></li>
+            <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
+            <li><a href="../Buttons/buttons.html" class="nav_item">Buttons</a></li>
+            <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
+            <li><a href="../Images/images.html" class="nav_item">Images</a></li>
+            <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
+            <li><a href="../Text_Utilities/text_utilities.html" class="nav_item">Text Utilities</a></li>
+            <li><a href="../Lists/lists.html" class=" nav_item">Lists</a></li>
+            <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
+            <li><a href="../Navigation/navigation.html" class="nav_item">Navigation</li>
+            <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
+            <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
+            <li><a href="../Grid/grid.html" class="nav_item">Simplified Grid</a></li>
+            <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
+        </ul>
+
+        <div class="social_icons">
+            <a class="icon" target="_blank" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a>
+            <a class="icon" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="icon" target="_blank" href="https://simran-gangwani.netlify.app/"><i class="fas fa-code"></i></a>
+            <a class="icon" target="_blank" style="margin-bottom: 0px;" href="https://twitter.com/SimranGangwani3"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="input_div" id="inputs_div">
+            <div class="primary_heading">
+                <span class="span_heading brand_name">I</span>
+                <span class="span_heading text_theme">n</span>
+                <span class="span_heading text_theme">p</span>
+                <span class="span_heading text_theme">u</span>
+                <span class="span_heading text_theme">t</span>
+                <span class="span_heading text_theme">s</span>
+            </div>
+            <p class="padding_tb_0_7">The input tag specifies an input field where the user can enter data. The input
+                element is the most important form element.</p>
+
+            <!-- BLACK STANDARD INPUT FIELD STARTS-->
+            <div id="default_input_div">
+                <h2 class="theme_color mr_top_1_5">Input Field</h2>
+                <div class="show_avatar show_alert set_width">
+                    <input class="input_field_standard" type="text" placeholder="Enter your name">
+                    <input class="input_field_standard" type="number" placeholder="Enter quantity">
+                    <input class="input_field_standard" type="text" placeholder="Enter your email">
+                    <input class="input_field_standard disabled_field" type="text" placeholder="Disabled field">
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=31px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input_field_standard%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%253Cinput%2520class%253D%2522input_field_standard%2522%2520type%253D%2522number%2522%2520placeholder%253D%2522Enter%2520quantity%2522%253E%250A%253Cinput%2520class%253D%2522input_field_standard%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%253E%250A%253Cinput%2520class%253D%2522input_field_standard%2520disabled_field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Disabled%2520field%2522%253E"
+                    style="width: 876px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- INPUT FIELD STARTS-->
+            <div id="default_input_div">
+                <h2 class="theme_color mr_top_1_5">Input Field</h2>
+                <div class="show_avatar show_alert">
+                    <input class="input_field" type="text" placeholder="Enter your name">
+                    <input class="input_field" type="number" placeholder="Enter quantity">
+                    <input class="input_field" type="text" placeholder="Enter your email">
+                    <input class="input_field disabled_field" type="text" placeholder="Disabled field">
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=31px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input_field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%253Cinput%2520class%253D%2522input_field%2522%2520type%253D%2522number%2522%2520placeholder%253D%2522Enter%2520quantity%2522%253E%250A%253Cinput%2520class%253D%2522input_field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%253E%250A%253Cinput%2520class%253D%2522input_field%2520disabled_field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Disabled%2520field%2522%253E"
+                    style="width: 800px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- INPUT FIELD ENDS-->
+
+
+            <!-- INPUT FIELD STATE STARTS-->
+            <div id="errors_input_div">
+                <h2 class="theme_color mr_top_1_5">Input Field State</h2>
+                <div class="show_avatar show_alert">
+                    <input class="input_field primary_inp" type="text" placeholder="Enter your name">
+                    <input class="input_field success_inp" type="text" placeholder="Enter your name">
+                    <input class="input_field warning_inp" type="text" placeholder="Enter your name">
+                    <input class="input_field danger_inp" type="text" placeholder="Enter your name">
+                    <input class="input_field dark_inp" type="text" placeholder="Enter your name">
+                </div>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=29px&ph=31px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input_field%2520primary_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%253Cinput%2520class%253D%2522input_field%2520success_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%253Cinput%2520class%253D%2522input_field%2520warning_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%253Cinput%2520class%253D%2522input_field%2520danger_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%253Cinput%2520class%253D%2522input_field%2520dark_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E"
+                    style="width: 800px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- INPUT FIELD STATE ENDS-->
+
+
+            <!-- INPUT FIELD STATE RESPONSE STARTS-->
+            <div id="errors_state_input_div">
+                <h2 class="theme_color mr_top_1_5">Input Field State Response</h2>
+                <div class="show_avatar show_alert show_input">
+                    <div class="input">
+                        <input class="input_field danger_inp" type="text" placeholder="Enter your text here">
+                        <div class="inp_text_danger">Incorrect Password</div>
+                    </div>
+
+                    <div class="input">
+                        <input class="input_field warning_inp" type="text" placeholder="Enter your text here">
+                        <div class="inp_text_warning">Weak Password</div>
+                    </div>
+
+                    <div class="input">
+                        <input class="input_field success_inp" type="text" placeholder="Enter your text here">
+                        <div class="inp_text_success">Strong Password</div>
+                    </div>
+
+                </div>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=29px&ph=31px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2522%253E%250A%2509%253Cinput%2520class%253D%2522input_field%2520danger_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520text%2520here%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inp_text_danger%2522%253EIncorrect%2520Password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_field%2520warning_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520text%2520here%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inp_text_warning%2522%253EWeak%2520Password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_field%2520success_inp%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520text%2520here%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inp_text_success%2522%253EStrong%2520Password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 800px; height: 448px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- INPUT FIELD STATE RESPONSE ENDS-->
+
+
+            <!-- RADIO FIELD STARTS-->
+            <div id="radio_div">
+                <h2 class="theme_color mr_top_1_5">Radio Button</h2>
+                <div class="show_avatar show_alert">
+                    <label class="radio">
+                        <input type="radio" value="Mens" name="cloths"><span class="radio_text">Womens Wear</span>
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" value="Mens" name="cloths"><span class="radio_text">Mens Wear</span>
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" value="Kids" name="cloths"><span class="radio_text">Kids Wear</span>
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" value="Unisex" name="cloths"><span class="radio_text">Unisex Wear</span>
+                    </label>
+
+                </div>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=29px&ph=31px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Mens%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EWomens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Mens%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EMens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Kids%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EKids%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Unisex%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EUnisex%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E"
+                    style="width: 800px; height: 486px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- RADIO FIELD ENDS-->
+
+
+            <!-- CHECKBOX FIELD STARTS-->
+            <div id="checkbox_div">
+                <h2 class="theme_color mr_top_1_5">Checkbox</h2>
+                <div class="show_avatar show_alert">
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="" value="Womens Wear">
+                        <span class="chechbox_text">Womens Wear</span>
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="" value="Mens Wear">
+                        <span class="chechbox_text">Mens Wear</span>
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="" value="Kids Wear">
+                        <span class="chechbox_text">Kids Wear</span>
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="" value="Unisex Wear">
+                        <span class="chechbox_text">Unisex Wear</span>
+                    </label>
+
+                </div>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=29px&ph=31px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Womens%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EWomens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Mens%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EMens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Kids%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EKids%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Unisex%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EUnisex%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A"
+                    style="width: 800px; height: 504px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- CHECKBOX FIELD ENDS-->
+
+        </div>
+    </div>
+
+    <script src="../themeToggle.js"></script>
+</body>
+
+</html>

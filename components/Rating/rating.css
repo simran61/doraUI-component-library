@@ -1,0 +1,14 @@
+.star{
+    font-size: 2rem;
+    margin: 0.3rem;
+    color: var(--nav-item-color);
+}
+
+.star:hover{
+    color: var(--warning-dark);
+}
+
+.rating_desc{
+    margin-top: 0.7rem;
+    color: var(--black-color);
+}

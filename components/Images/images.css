@@ -1,0 +1,10 @@
+.image_wrapper{
+    width: 100%;
+    border-radius: 0.5rem;
+    object-position: center;
+    object-fit: cover;
+}
+
+.rounded_img{
+    border-radius: 100%;
+}
