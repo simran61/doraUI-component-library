@@ -17,6 +17,36 @@
     border-radius: 0.7rem 0.7rem 0 0;
 }
 
+.vertical_links{
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_like{
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.btn_cart{
+    background-color: var(--info-bg);
+    color: var(--primary-color-cl);
+}
+
+.ecomm_vertical_img img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+}
+
+.ecomm_vertical_img{
+    background-color: var(--info-bg);
+    border-radius: 0.7rem 0.7rem 0 0;
+}
+
 .relative{
     position: relative;
 }
@@ -25,7 +55,7 @@
     position: absolute;
     top: 1.5rem;
     left: 0;
-    background-color: var(--offline-color);
+    background-color: var(--error-dark);
     padding: 0.2rem 1rem;
 
 }
@@ -52,6 +82,14 @@
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
+}
+
+.ecomm_btns{
+    padding: 0.7rem 0;
+}
+
+.mr_sm{
+    margin-right: 0.5rem;
 }
 
 .text_links a:first-child{
@@ -111,10 +149,18 @@ a{
     width: 32rem;
 }
 
+.card8>.card_content{
+    padding: 0;
+}
+
 .img_bg{
     background-color: var(--info-bg);
     border-top-left-radius: 0.7rem;
     width: 30%;
+}
+
+.price{
+    text-align: center;
 }
 
 .original_price{
@@ -124,13 +170,28 @@ a{
     display: inline-block;
 }
 
+.discount_price{
+    font-weight: bold;
+    color: var(--error-dark);
+}
+
+.txt_md{
+    font-size: 1.2rem;
+}
+
 .yellow{
     color: var(--warning-dark);
 }
 
-.discount_price{
+.btn_quan{
+    background-color: var(--primary-color-cl);
+    padding: 0.1rem 0.6rem;
+    font-size: 1.2rem;
+}
+
+.quantity{
     font-weight: bold;
-    color: var(--error-dark);
+    font-size: 1.2rem;
 }
 
 .section1{
@@ -140,6 +201,11 @@ a{
 .c6_card_img img{
     height: 6.25rem;
     width: 6.25rem;
+}
+
+.c7_card_img img{
+    height: 9.7rem;
+    width: 9.7rem;
 }
 
 .padding_sm{
