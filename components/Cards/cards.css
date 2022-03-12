@@ -201,6 +201,7 @@ a{
 .c6_card_img img{
     height: 6.25rem;
     width: 6.25rem;
+    border-top-left-radius: 0.7rem;
 }
 
 .c7_card_img img{
