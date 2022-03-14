@@ -5,6 +5,7 @@
     --dark-nav-color: rgb(17, 17, 17);
     --dark-bg: rgb(26, 26, 26);
     --tagline-color: rgb(179, 177, 177);
+    --md-grey: rgb(199, 198, 198);
     --scrollbar-color: #1d547e;
     --nav-item-color: rgb(121, 120, 120);
     --text-color: white;
@@ -13,6 +14,7 @@
     --black-color: black;
     --shadow-color: rgba(0, 0, 0, 0.7);
     --white-smoke-color: whitesmoke;
+    --light-grey: rgb(231, 231, 231);
     --border-color: rgb(49, 49, 49);
 
     --primary-dark: #2670a8;
@@ -29,6 +31,7 @@
 
     --success-bg: #C6F6D5;
     --success-shadow:#2ea388;
+    --success-darker:#27856f;
     --success-dark: #3AD4AF;
 
     --warning-bg: #FEEBC8;

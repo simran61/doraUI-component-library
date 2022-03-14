@@ -124,6 +124,7 @@ a{
     position: absolute;
     top: 6.563rem;
     color: var(--white-color);
+    text-shadow: 2px 2px 4px var(--black-color);
 }
 
 .margin_top_sm{
@@ -202,6 +203,7 @@ a{
     height: 6.25rem;
     width: 6.25rem;
     border-top-left-radius: 0.7rem;
+    background-color: var(--info-bg);
 }
 
 .c7_card_img img{

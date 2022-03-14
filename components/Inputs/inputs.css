@@ -1,68 +1,54 @@
-.input_field_standard{
-    margin: 0.5rem 1rem;
-    padding: 0.8rem 1rem;
+.input_box_div{
+    width: 100%;
+    background-color: var(--white-smoke-color);
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid var(--nav-item-color);
+    padding: 0.2rem 0.8rem;
+}
+
+.input_label{
+    color: var(--grey-text);
+    font-size: 0.8rem;
+}
+
+.input_box{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0.2rem 0 0.5rem 0;
     font-size: 1rem;
-    outline: none;
-    border: 2px solid var(--border-color);
 }
 
-.input_field_standard:hover{
-    border: 2px solid var(--primary-color-cl);
+.disabled{
+    background-color: var(--md-grey);
 }
 
-.input_field_standard:focus{
-    border: 2px solid var(--primary-color-cl);
+.grey_bg{
+    background-color: var(--light-grey);
 }
 
-.input_field{
-    margin: 0.2rem 1rem;
-    padding: 0.7rem 1rem;
-    border: 2px solid var(--primary-color-cl);
-    border-radius: 0.7rem;
-    outline: none;
+.input_txt_msg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.inp_text_danger{
-    color: var(--danger-color-cl);
-    font-weight: 600;
-    margin-left: 1rem;
+.error_txt{
+    color: var(--error-dark);
 }
 
-.inp_text_warning{
-    color: var(--warning-color-cl);
-    font-weight: 600;
-    margin-left: 1rem;
+.error_input{
+    border: 1.5px solid var(--error-dark);
 }
 
-.inp_text_success{
-    color: var(--success-color-cl);
-    font-weight: 600;
-    margin-left: 1rem;
+.success_txt{
+    color: var(--success-shadow);
 }
 
-.disabled_field{
-    pointer-events: none;
-    background-color: var(--tagline-color);
-}
-
-.primary_inp{
-    border: 2px solid var(--primary-color-cl);
-}
-
-.success_inp{
-    border: 2px solid var(--success-color-cl);
-}
-
-.warning_inp{
-    border: 2px solid var(--warning-color-cl);
-}
-
-.danger_inp{
-    border: 2px solid var(--danger-color-cl);
-}
-
-.dark_inp{
-    border: 2px solid var(--dark-color-cl);
+.success_input{
+    border: 1.5px solid var(--success-shadow);
 }
 
 .radio, .checkbox{
@@ -71,7 +57,51 @@
 }
 
 .radio_text, .chechbox_text{
-    color: var(--primary-color-cl);
-    font-weight: 600;
-    margin-left: 0.3rem;
+    color: var(--black-color);
+    font-weight: 550;
+    margin-left: 0.4rem;
+}
+
+.form{
+    background-color: var(--white-smoke-color);
+    width: 80%;
+    margin: 1rem;
+    border-radius: 0.7rem;
+    padding: 1rem 2rem;
+    box-shadow: 5px 5px 8px var(--nav-item-color);
+}
+
+.form_heading{
+    color: var(--theme-color);
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.form_input{
+    margin: 1rem 0;
+}
+
+.credentials_options{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.forgot_link{
+    color: var(--theme-color);
+}
+
+.btn_center{
+    display: flex;
+    margin: 0 auto;
+}
+
+.block{
+    display: block;    
+    text-align: center;
+    margin: 0.7rem;
+}
+
+.black_color{
+    color: var(--black-color);
 }

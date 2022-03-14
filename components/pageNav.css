@@ -262,7 +262,8 @@ a{
 }
 
 .show_grid{
-    width: 600px;
+    /* width: 600px; */
+    display: block;
     padding-left: 3rem;
     padding-right: 3rem;
 }
