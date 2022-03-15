@@ -34,7 +34,7 @@
             <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
             <li><a href="../Text_Utilities/text_utilities.html" class="nav_item">Text Utilities</a></li>
             <li><a href="../Lists/lists.html" class=" nav_item">Lists</a></li>
-            <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
+            <li><a href="../Modal/modal.html" class="nav_item active">Modal</a></li>
             <li><a href="../Navigation/navigation.html" class="nav_item">Navigation</li>
             <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
             <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
@@ -70,49 +70,46 @@
             <!-- DEFAULT MODAL STARTS-->
             <div id="default_button_div">
                 <h2 class="theme_color mr_top_1_5">Default Modal</h2>
-                <div class="show_avatar show_alert">
-                    <div class="modal">
-                        <h3>Are you sure want to delete this Item ?</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloribus, quam
-                            consectetur officia quos</p>
-                        <div class="dialog-btn">
-                            <button class="btn btn_cancel">Cancel</button>
-                            <button class="btn btn_delete">Delete</button>
+                <div class="show_alert">
+                    <button class="btn btn_primary" id="btnDemo">Open Modal</button>
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal_header">
+                                <h3>Modal Title</h3>
+                                <span class="close">&times;</span>
+                            </div>
+                            <div class="modal_main">
+                                <h1>This is a modal heading</h1>
+                                <p class="modal_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                                    tempora ad excepturi blanditiis obcaecati. Nesciunt neque tempora repudiandae
+                                    sapiente aliquid inventore laborum, dolor est nisi impedit suscipit molestiae soluta
+                                    rem.</p>
+                            </div>
+                            <div class="modal_footer">
+                                <button class="btn btn_outline btn_sm">Discard</button>
+                                <button class="btn btn_primary btn_sm">Save Changes</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=32px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2509%253Ch3%253EAre%2520you%2520sure%2520want%2520to%2520delete%2520this%2520Item%2520%253F%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%250A%2520%2520%2520%2520Deleniti%2520doloribus%252C%2520quam%2520consectetur%2520officia%2520quos%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dialog-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn_cancel%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn_delete%2522%253EDelete%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    style="width: 650px; height: 309px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=29px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2522%2520id%253D%2522btnDemo%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EModal%2520Title%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_main%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EThis%2520is%2520a%2520modal%2520heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal_para%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consetur%2520adipisicing%2520elit.%253C%252Fp%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn_outline%2520btn_sm%2522%253EDiscard%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_sm%2522%253ESave%2520Changes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 872px; height: 452px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
-            </div>
-
-            <!-- INFO MODAL STARTS-->
-            <div id="default_button_div">
-                <h2 class="theme_color mr_top_1_5">Info Modal</h2>
-                <p class="padding_tb_0_7">A modal is a dialog popup window that is displayed on top of the current page.
-                    Modals can work effectively when the information being requested or presented.</p>
-                <div class="show_avatar show_alert">
-                    <div class="modal">
-                        <h3>This is a modal heading !</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloribus, quam
-                            consectetur officia quos doloremque distinctio minus </p>
-                    </div>
-                </div>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=32px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Ch3%253EThis%2520is%2520a%2520modal%2520heading%2520%21%253C%252Fh3%253E%250A%2520%2520%2520%253Cp%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Deleniti%2520doloribus%252C%2520quam%250A%2520%2520%2520consectetur%2520officia%2520quos%2520doloremque%2520distinctio%2520minus%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                    style="width: 844px; height: 235px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=29px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520JavaScript%2520Code%250Avar%2520modal%2520%253D%2520document.getElementById%28%2522modal%2522%29%253B%250Avar%2520btnDemo%2520%253D%2520document.getElementById%28%2522btnDemo%2522%29%253B%250Avar%2520closeIcon%2520%253D%2520document.getElementsByClassName%28%2522close%2522%29%255B0%255D%253B%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250AbtnDemo.onclick%2520%253D%2520function%28%29%2520%257B%250A%2520%2520modal.style.display%2520%253D%2520%2522block%2522%253B%250A%257D%250A%250AcloseIcon.onclick%2520%253D%2520function%28%29%2520%257B%250A%2520%2520modal.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%250A%250Awindow.onclick%2520%253D%2520function%28event%29%2520%257B%250A%2520%2520if%2520%28event.target%2520%253D%253D%2520modal%29%2520%257B%250A%2520%2520%2520%2520modal.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%250A%257D"
+                    style="width: 872px; height: 471px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
-
         </div>
     </div>
 
     <script src="../themeToggle.js"></script>
+    <script src="modal.js"></script>
 </body>
 
 </html>

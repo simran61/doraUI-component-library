@@ -1,5 +1,5 @@
 .ol_list_style{
-    margin: 0 2rem;
+    margin: 1rem;
     color: var(--black-color);
 }
 
@@ -11,6 +11,7 @@
     width: 80%;
     background-color: var(--white-smoke-color);
     border: 1px solid var(--nav-item-color);
+    margin: 1rem;
 }
 
 .list-item{
@@ -19,6 +20,10 @@
     padding: 1rem 2rem;
     border-top:1px solid var(--nav-item-color);
     color: var(--black-color);
+}
+
+.list-item:first-child{
+    border-top: 0;
 }
 
 .list-heading{
@@ -35,6 +40,7 @@ font-size: 0.8rem;
 }
 
 .list-item:hover{
+    transition: 0.2s;
     background-color: var(--primary-color-cl);
     color: var(--white-color);
 }

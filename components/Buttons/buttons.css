@@ -105,12 +105,8 @@
     margin: 1rem;
 }
 
-.icon_btn{
-    display: flex;
-}
-
 .btn_icon{
-    margin-right: 1rem;
+    margin-right: 0.3rem;
 }
 
 .float_btn{
