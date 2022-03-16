@@ -188,7 +188,7 @@ nav{
     }
 }
 
-/* .show_avatar{
+.show_avatar{
     background-color: rgb(173, 183, 195);
     padding: 0.5rem 0;
     border-radius: 0.7rem;
@@ -196,7 +196,7 @@ nav{
     flex-wrap: wrap;
     width: 100%;
     margin: 1rem 0 2rem 0;
-} */
+}
 
 .show_alert{
     background-color: rgb(173, 183, 195);
@@ -256,6 +256,14 @@ a{
 .set_width{
     width: 600px;
 }
+
+.nav-container {
+    height: 13rem;
+    margin: 1rem;
+    overflow-y: auto;
+    background-color: var(--white-color);
+    position: relative;
+  }
 
 .star_rating{
     text-align: center;
