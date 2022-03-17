@@ -70,16 +70,32 @@
             <!-- DEFAULT TOAST STARTS-->
             <div id="default_button_div">
                 <h2 class="theme_color mr_top_1_5">Default Toast</h2>
-                <div class="show_avatar show_alert">
-                    <div class="toast">
-                        <p class="toast_txt">Something went wrong!</p>
+                <div class="show_alert spacing">
+                    <div class="toast success_toast">
+                        <p class="toast_txt">All Changes saved!</p>
+                        <button class="hide_toast"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="toast warning_toast">
+                        <p class="toast_txt">Low disk storage!</p>
+                        <button class="hide_toast"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="toast error_toast">
+                        <p class="toast_txt">An error occurred!</p>
+                        <button class="hide_toast"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="toast info_toast">
+                        <p class="toast_txt">An update is available!</p>
+                        <button class="hide_toast"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="toast primary_toast">
+                        <p class="toast_txt">This is a primary toast!</p>
                         <button class="hide_toast"><i class="fas fa-times"></i></button>
                     </div>
                 </div>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=32px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_txt%2522%253ESomething%2520went%2520wrong%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522hide_toast%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
-                    style="width: 675px; height: 216px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=29px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520success_toast%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_txt%2522%253EAll%2520Changes%2520saved%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522hide_toast%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520warning_toast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_txt%2522%253ELow%2520disk%2520storage%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522hide_toast%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520error_toast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_txt%2522%253EAn%2520error%2520occurred%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522hide_toast%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520info_toast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_txt%2522%253EAn%2520update%2520is%2520available%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522hide_toast%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520primary_toast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast_txt%2522%253EThis%2520is%2520a%2520primary%2520toast%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522hide_toast%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 863px; height: 508px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
