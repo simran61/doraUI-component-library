@@ -18,8 +18,8 @@
 <body>
     <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt=""></a>
 
-     <!-- NAV BAR STARTS -->
-     <nav>
+    <!-- NAV BAR STARTS -->
+    <nav>
         <div class="logo">
             <a href="../../index.html"><img src="../../assets/1.png" alt="" class="logo_img"></a>
         </div>
@@ -39,14 +39,16 @@
             <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
             <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
             <li><a href="../Grid/grid.html" class="nav_item">Simplified Grid</a></li>
-            <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
+            <li><a href="../Slider/slider.html" class="nav_item active">Slider</a></li>
         </ul>
 
         <div class="social_icons">
             <a class="icon" target="_blank" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a>
-            <a class="icon" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="icon" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
+                    class="fab fa-linkedin-in"></i></a>
             <a class="icon" target="_blank" href="https://simran-gangwani.netlify.app/"><i class="fas fa-code"></i></a>
-            <a class="icon" target="_blank" style="margin-bottom: 0px;" href="https://twitter.com/SimranGangwani3"><i class="fab fa-twitter"></i></a>
+            <a class="icon" target="_blank" style="margin-bottom: 0px;" href="https://twitter.com/SimranGangwani3"><i
+                    class="fab fa-twitter"></i></a>
         </div>
     </nav>
 
@@ -68,37 +70,32 @@
             <!-- DEFAULT SLIDER STARTS-->
             <div id="default_button_div">
                 <h2 class="theme_color mr_top_1_5">Default Slider</h2>
-                <div class="show_avatar show_alert">
-                    <div class="box">
+                <div class="show_alert">
+                    <div class="range_box">
                         <div class="slider">
                             <input type="range" min="0" max="100" value="20" class="rangeSlider">
                         </div>
-                        <div class="value">100</div>
+                        <div class="value"></div>
                     </div>
                 </div>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=32px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522box%2522%253E%250A%2509%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252220%2522%2520class%253D%2522rangeSlider%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E100%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    style="width: 751px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=29px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522range_box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252220%2522%2520class%253D%2522rangeSlider%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 863px; height: 248px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=29px&ph=32px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520slider%253D%2520document.querySelector%28%27.rangeSlider%27%29%253B%250Aconst%2520value%253D%2520document.querySelector%28%27.value%27%29%253B%250A%250Avalue.innerText%253D%2520slider.value%253B%250A%250Aslider.oninput%2520%253D%2520function%28%29%257B%250A%2520%2520%2520%2520value.innerText%253Dthis.value%250A%257D"
-                    style="width: 549px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=29px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520slider%253D%2520document.querySelector%28%27.rangeSlider%27%29%253B%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250Aconst%2520value%253D%2520document.querySelector%28%27.value%27%29%253B%250A%250Avalue.innerText%253D%2520slider.value%253B%250A%250Aslider.oninput%2520%253D%2520function%28%29%257B%250A%2520%2520%2520%2520value.innerText%253Dthis.value%250A%257D"
+                    style="width: 863px; height: 285px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
-            <!-- DEAFULT SLIDER ENDS-->
-
-
         </div>
     </div>
 
-    <script src="./slider.js">
-    </script>
+    <script src="./slider.js"></script>
     <script src="../themeToggle.js"></script>
-    <!-- <script src="../../app.js"></script> -->
 </body>
 
 </html>
