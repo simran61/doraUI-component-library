@@ -29,11 +29,6 @@
     padding: 0;
 }
 
-.btn_cart{
-    background-color: var(--info-bg);
-    color: var(--primary-color-cl);
-}
-
 .ecomm_vertical_img img{
     width: 15rem;
     height: 15rem;
