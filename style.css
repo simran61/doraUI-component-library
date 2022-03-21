@@ -8,19 +8,6 @@
     scroll-behavior: smooth;
 }
 
-:root{
-    /* --grey-text: rgb(83, 83, 83);
-    --secondary-color: #FD2155;
-    --primary-color: #2B7BB8;
-    --dark-nav-color: rgb(17, 17, 17);
-    --body-bg: rgb(26, 26, 26);
-    --tagline-color: rgb(179, 177, 177);
-    --scrollbar-color: #1d547e;
-    --nav-item-color: rgb(121, 120, 120);
-    --white-color: white;
-    --white-color: white; */
-}
-
 .light_theme{
     --grey-text: rgb(165, 163, 163);
     --secondary-color: #FD2155;

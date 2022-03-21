@@ -9,24 +9,6 @@
     scroll-behavior: smooth;
 }
 
-:root{
-    /* --grey-text: rgb(83, 83, 83);
-    --secondary-color: #FD2155;
-    --primary-color: #2B7BB8;
-    --dark-nav-color: rgb(17, 17, 17);
-    --body-bg: rgb(26, 26, 26);
-    --light-bg:rgb(211, 210, 210);
-    --white-color: white;
-    --nav-item-color: rgb(121, 120, 120);
-
-
-    --primary-color-cl: #308acf;
-    --success-color-cl: #13921a;
-    --warning-color-cl: #f1bb16;
-    --danger-color-cl: #ca1818;
-    --dark-color-cl: #343435; */
-}
-
 .light_theme{
     --body-color: #b5c7d4;
     --grey-text: rgb(165, 163, 163);
