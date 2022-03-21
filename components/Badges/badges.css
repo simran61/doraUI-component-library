@@ -33,7 +33,7 @@
 }
 
 .badge_offline{
-    background-color: var(--offline-color);
+    background-color: var(--danger-color);
 }
 
 .status_badge_sq_abv{
@@ -57,7 +57,7 @@
     top: -0.5rem;
     right: -0.5rem;
     font-size: 0.9rem;
-    background-color: var(--offline-color);
+    background-color: var(--danger-color);
     border-radius: 100%;
     padding: 0.2rem;
     border: 1px solid var(--white-color);

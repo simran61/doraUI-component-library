@@ -52,7 +52,20 @@
     left: 0;
     background-color: var(--error-dark);
     padding: 0.2rem 1rem;
+}
 
+.dismiss{
+    position: absolute;
+    top: 0.2rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: var(--grey-text);
+    border-radius: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
 }
 
 .card_content{
@@ -155,6 +168,13 @@ a{
     width: 30%;
 }
 
+.card_footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .price{
     text-align: center;
 }
@@ -171,6 +191,12 @@ a{
     color: var(--error-dark);
 }
 
+.product_price{
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
 .txt_md{
     font-size: 1.2rem;
 }
@@ -180,7 +206,7 @@ a{
 }
 
 .btn_quan{
-    background-color: var(--primary-color-cl);
+    background-color: var(--primary-color);
     padding: 0.1rem 0.6rem;
     font-size: 1.2rem;
 }

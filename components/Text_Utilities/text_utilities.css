@@ -3,6 +3,10 @@
     color: var(--black-color);
 }
 
+.heading1, .heading2, .heading3, .heading4, .heading5{
+    font-weight: bold;
+}
+
 .heading1, .paragraph1{
     font-size: 3rem;
     line-height: 4rem;
@@ -54,4 +58,16 @@
 
 .font_size{
     font-size: 2rem;
+}
+
+.align_left{
+    text-align: left;
+}
+
+.align_center{
+    text-align: center;
+}
+
+.align_right{
+    text-align: right;
 }

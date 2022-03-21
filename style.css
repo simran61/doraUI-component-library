@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('/components/color.css');
 
 *{
     margin: 0;
@@ -8,34 +9,34 @@
 }
 
 :root{
-    --grey-text: rgb(83, 83, 83);
+    /* --grey-text: rgb(83, 83, 83);
     --secondary-color: #FD2155;
-    --theme-color: #2B7BB8;
+    --primary-color: #2B7BB8;
     --dark-nav-color: rgb(17, 17, 17);
-    --dark-bg: rgb(26, 26, 26);
+    --body-bg: rgb(26, 26, 26);
     --tagline-color: rgb(179, 177, 177);
     --scrollbar-color: #1d547e;
     --nav-item-color: rgb(121, 120, 120);
-    --text-color: white;
-    --primary-heading-color: white;
+    --white-color: white;
+    --white-color: white; */
 }
 
 .light_theme{
     --grey-text: rgb(165, 163, 163);
     --secondary-color: #FD2155;
-    --theme-color: #2B7BB8;
+    --primary-color: #2B7BB8;
     --dark-nav-color: #cad7e0;
     --tagline-color: rgb(83, 82, 82);
-    --dark-bg: #e9f1f5;
+    --body-bg: #e9f1f5;
     --nav-item-color: rgb(73, 72, 72);
-    --text-color: black;
-    --primary-heading-color: rgb(24, 24, 24);
+    --white-color: black;
+    --white-color: rgb(24, 24, 24);
 }
 
 body{
     display: flex;
-    color: var(--text-color);
-    background-color: var(--dark-bg);
+    color: var(--white-color);
+    background-color: var(--body-bg);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -71,7 +72,7 @@ nav{
 }
 
 .nav_item:hover, .icon:hover{
-    color: var(--theme-color);
+    color: var(--primary-color);
     cursor: pointer;
 }
 
@@ -103,7 +104,7 @@ nav{
 
 .brand_name{
     color: var(--secondary-color);
-    text-shadow: -0.3rem -0.3rem var(--theme-color);
+    text-shadow: -0.3rem -0.3rem var(--primary-color);
 }
 
 .html_tag{
@@ -150,12 +151,12 @@ nav{
 .primary_heading{
     font-size: 5rem;
     font-weight: 800;
-    color: var(--primary-heading-color);
+    color: var(--white-color);
     display: flex;
 }
 
 .span_heading:hover{
-    color: var(--theme-color);
+    color: var(--primary-color);
     animation: jellyBounce 0.6s;
 }
 
@@ -183,14 +184,14 @@ nav{
 }
 
 .primary_btn{
-    border: 1px solid var(--theme-color);
+    border: 1px solid var(--primary-color);
     background: transparent;
     letter-spacing: 0.125;
     outline: none;
     font-size: 1.1rem;
     padding: 1rem 2rem;
     margin: 0.5rem 0 0.5rem 3rem;
-    color: var(--theme-color);
+    color: var(--primary-color);
 }
 
 .btn1{
@@ -200,8 +201,8 @@ nav{
 .btn1 button{
     position: relative;
     margin: 0.5rem 4.5rem;
-    border: 1px solid var(--theme-color);
-    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    color: var(--white-color);
     background: transparent;
     padding: 1rem 2rem;
     font-size: 1.375;
@@ -226,12 +227,12 @@ button:hover{
 }
 
 .btn1 button:after{
-    background: var(--theme-color);
+    background: var(--primary-color);
     transform: translate(-101%, 0%) rotate(0deg);
 }
 
 .btn1:hover button:after{
-    background: var(--theme-color);
+    background: var(--primary-color);
     transform: translate(0%, 0%) rotate(0deg);
 }
 
@@ -300,7 +301,7 @@ button span{
 }
 
 .text_theme{
-    color: var(--theme-color);
+    color: var(--primary-color);
 }
 
 .get_started{
@@ -318,11 +319,10 @@ button span{
 }
    
 ::-webkit-scrollbar-thumb {
-    background: var(--theme-color); 
+    background: var(--primary-color); 
     border-radius: 0.625rem;
 }
   
 ::-webkit-scrollbar-thumb:hover {
     background: var(--scrollbar-color); 
 }
-/* CUSTOM SCROLL BAR ENDS */

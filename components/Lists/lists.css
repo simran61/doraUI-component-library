@@ -41,6 +41,6 @@ font-size: 0.8rem;
 
 .list-item:hover{
     transition: 0.2s;
-    background-color: var(--primary-color-cl);
+    background-color: var(--primary-color);
     color: var(--white-color);
 }

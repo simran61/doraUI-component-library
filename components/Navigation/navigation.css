@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: var(--primary-color-cl);
+    background-color: var(--primary-color);
     align-items: center;
     flex-wrap: wrap;
     color: var(--white-color);
@@ -80,7 +80,7 @@
   
   .drawer-container {
     background-color: var(--white-color);
-    color: var(--dark-bg);
+    color: var(--black-color);
     width: 12.5rem;
     height: 100%;
     left: -15.625rem;

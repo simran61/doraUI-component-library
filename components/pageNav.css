@@ -10,13 +10,13 @@
 }
 
 :root{
-    --grey-text: rgb(83, 83, 83);
+    /* --grey-text: rgb(83, 83, 83);
     --secondary-color: #FD2155;
-    --theme-color: #2B7BB8;
+    --primary-color: #2B7BB8;
     --dark-nav-color: rgb(17, 17, 17);
-    --dark-bg: rgb(26, 26, 26);
+    --body-bg: rgb(26, 26, 26);
     --light-bg:rgb(211, 210, 210);
-    --text-color: white;
+    --white-color: white;
     --nav-item-color: rgb(121, 120, 120);
 
 
@@ -24,20 +24,20 @@
     --success-color-cl: #13921a;
     --warning-color-cl: #f1bb16;
     --danger-color-cl: #ca1818;
-    --dark-color-cl: #343435;
+    --dark-color-cl: #343435; */
 }
 
 .light_theme{
     --body-color: #b5c7d4;
     --grey-text: rgb(165, 163, 163);
     --secondary-color: #FD2155;
-    --theme-color: #2B7BB8;
+    --primary-color: #2B7BB8;
     --dark-nav-color: #cad7e0;
     --tagline-color: rgb(83, 82, 82);
     --nav-item: rgb(83, 83, 83);
-    --dark-bg: #e9f1f5;
+    --body-bg: #e9f1f5;
     --light-bg:rgb(211, 210, 210);
-    --text-color: black;
+    --white-color: black;
     --nav-item-color: rgb(73, 72, 72);
 }
 
@@ -51,7 +51,7 @@
 }
    
 ::-webkit-scrollbar-thumb {
-    background: var(--theme-color); 
+    background: var(--primary-color); 
     border-radius: 10px;
 }
   
@@ -60,7 +60,7 @@
 }
 
 .theme_color{
-    color: var(--theme-color);
+    color: var(--primary-color);
 }
 
 .padding_tb_0_7{
@@ -77,8 +77,8 @@
 
 body{
     display: flex;
-    color: var(--text-color);
-    background-color: var(--dark-bg);
+    color: var(--white-color);
+    background-color: var(--body-bg);
 }
 
 .main{
@@ -114,10 +114,8 @@ nav{
     color: var(--nav-item-color);
 }
 
-
-
 .nav_item:hover, .icon:hover, .active{
-    color: var(--theme-color);
+    color: var(--primary-color);
     cursor: pointer;
 }
 
@@ -150,15 +148,15 @@ nav{
 
 .brand_name{
     color: var(--secondary-color);
-    text-shadow: -5px -5px var(--theme-color);
+    text-shadow: -5px -5px var(--primary-color);
 }
 
 .text_theme{
-    color: var(--theme-color);
+    color: var(--primary-color);
 }
 
 .class_name{
-    color: var(--primary-color-cl);
+    color: var(--primary-color);
     font-weight: 600;
 }
 
@@ -212,11 +210,6 @@ nav{
     flex-wrap: wrap;
    justify-content: space-evenly; 
 }
-
-/* .avatar{
-    width: 60px;
-    border-radius: 0.5rem;
-} */
 
 .rounded{
     border-radius: 50%;

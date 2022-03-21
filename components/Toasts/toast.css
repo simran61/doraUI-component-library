@@ -38,8 +38,8 @@
 }
 
 .primary_toast{
-    color: var(--primary-color-cl);
-    border-left: 5px solid var(--primary-color-cl);
+    color: var(--primary-color);
+    border-left: 5px solid var(--primary-color);
     background-color: var(--info-bg);
 }
 
