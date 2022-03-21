@@ -8,7 +8,7 @@
     padding: 1rem;
 }
   
-.nav-fixed {
+.nav_fixed {
   position: sticky;
   top: 0;
 }
@@ -25,7 +25,7 @@
     cursor: pointer;
 }
   
-.navbar-right {
+.navbar_menu {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -33,12 +33,12 @@
   gap: 1.2rem;
 }
   
-.nav-main-text {
+.show_nav_txt{
   padding: 1rem;
   color: var(--black-color);
 }
   
-.navbar-left {
+.nav_brand {
     display: flex;
     align-items: center;
   }
@@ -48,37 +48,25 @@
     font-size: 1rem;
   }
   
-  .header-fixed {
-    position: sticky;
-    top: 0;
-  }
-  
-  .hamberg-btn,
-  .drawer-hamberg-btn {
+  .hamburger_menu,
+  .hamburger_menu_drawer {
     cursor: pointer;
     font-size: 1.5rem;
     padding: 0.5rem;
   }
   
-  .navbar-right li span {
+  .navbar_menu li span {
     margin-left: 0.1rem;
     font-size: 0.9rem;
   }
   
-  .navbar-right img {
+  .navbar_menu img {
     width: 2.19rem;
     height: 2.19rem;
     border-radius: 50%;
   }
   
-  
-  
-  /* Drawer style */
-  .drawer-demo-text {
-    padding: 1rem 0;
-  }
-  
-  .drawer-container {
+  .drawer_container {
     background-color: var(--white-color);
     color: var(--black-color);
     width: 12.5rem;
@@ -91,43 +79,43 @@
     box-shadow: var(--shadow-color) 0px 5px 15px;
   }
   
-  .drawer-title {
+  .drawer_title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.7rem 0 0.7rem 1rem;
   }
   
-  .drawer-close {
+  .drawer_close {
     font-size: 2rem;
     cursor: pointer;
   }
   
-  .drawer-close:hover {
+  .drawer_close:hover {
     opacity: 0.8;
   }
   
-  .drawer-trans-on {
+  .transition_start {
     left: 0;
     transition: left 0.5s ease-out;
   }
   
-  .drawer-trans-off {
+  .transition_end {
     left: -225px;
     transition: left 0.5s ease-out;
   }
   
-  .drawer-menu {
+  .drawer_submenu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
   
-  .drawer-menu a {
+  .drawer_submenu a {
     padding: 0.5rem;
   }
   
-  .drawer-menu a .link {
+  .drawer_submenu a .link {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -143,7 +131,7 @@
       padding: 0.5rem;
     }
   
-    .navbar-right li span {
+    .navbar_menu li span {
       display: none;
     }
   
@@ -151,12 +139,12 @@
       margin-left: 0.5rem;
     }
   
-    .hamberg-btn {
+    .hamburger_menu {
       font-size: 1rem;
       padding: 0.5rem;
     }
   
-    .navbar-right img {
+    .navbar_menu img {
       width: 1.6rem;
       height: 1.6rem;
     }

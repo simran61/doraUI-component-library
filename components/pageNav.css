@@ -232,7 +232,7 @@ a{
     width: 600px;
 }
 
-.nav-container {
+.show_nav {
     height: 13rem;
     margin: 1rem;
     overflow-y: auto;
