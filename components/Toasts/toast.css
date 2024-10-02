@@ -1,61 +1,60 @@
-.toast{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
-    justify-content: space-between;
-    border-radius: 0.5rem;
-    margin: 1rem;
-    font-weight: 700;
-    box-shadow: 0.3rem 0.3em 0.5rem var(--nav-item-color);
+.toast {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-weight: 700;
 }
 
-.toast>button>i{
-    margin-left: 2rem;
+.toast > button > i {
+  margin-left: 2rem;
 }
 
-.success_toast{
-    color: var(--success-shadow);
-    border-left: 5px solid var(--success-shadow);
-    background-color: var(--success-bg);
+.success_toast {
+  color: var(--success-shadow);
+  border-left: 5px solid var(--success-shadow);
+  background-color: var(--success-bg);
 }
 
-.warning_toast{
-    color: var(--warning-dark);
-    border-left: 5px solid var(--warning-dark);
-    background-color: var(--warning-bg);
+.warning_toast {
+  color: var(--warning-dark);
+  border-left: 5px solid var(--warning-dark);
+  background-color: var(--warning-bg);
 }
 
-.error_toast{
-    color: var(--error-dark);
-    border-left: 5px solid var(--error-dark);
-    background-color: var(--error-bg);
+.error_toast {
+  color: var(--error-dark);
+  border-left: 5px solid var(--error-dark);
+  background-color: var(--error-bg);
 }
 
-.info_toast{
-    color: var(--info-dark);
-    border-left: 5px solid var(--info-dark);
-    background-color: var(--info-bg);
+.info_toast {
+  color: var(--info-dark);
+  border-left: 5px solid var(--info-dark);
+  background-color: var(--info-bg);
 }
 
-.primary_toast{
-    color: var(--primary-color);
-    border-left: 5px solid var(--primary-color);
-    background-color: var(--info-bg);
+.primary_toast {
+  color: var(--primary-color);
+  border-left: 5px solid var(--primary-color);
+  background-color: var(--info-bg);
 }
 
-.hide_toast>i{
-    color: var(--nav-item-color);
+.hide_toast > i {
+  color: var(--nav-item-color);
 }
 
-.hide_toast{
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    cursor: pointer;
+.hide_toast {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-.hide_toast>i:hover{
-    color: var(--black-color);
-    transition: 0.2s;
+.hide_toast > i:hover {
+  color: var(--black-color);
+  transition: 0.2s;
 }

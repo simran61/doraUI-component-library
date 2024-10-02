@@ -1,73 +1,94 @@
-.show_heading{
-    margin: 1rem;
-    color: var(--black-color);
+.show_heading {
+  margin: 1rem;
 }
 
-.heading1, .heading2, .heading3, .heading4, .heading5{
-    font-weight: bold;
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5 {
+  color: var(--white-color);
+  font-weight: bold;
 }
 
-.heading1, .paragraph1{
-    font-size: 3rem;
-    line-height: 4rem;
+.heading1,
+.paragraph1 {
+  color: var(--white-color);
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
-.heading2, .paragraph2{
-    font-size: 2rem;
-    line-height: 2.5rem;
+.heading2,
+.paragraph2 {
+  color: var(--white-color);
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
-.heading3, .paragraph3{
-    font-size: 1.5rem;
-    line-height: 2rem;
+.heading3,
+.paragraph3 {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.heading4, .paragraph4{
-    font-size: 1rem;
-    line-height: 1.5rem;
+.heading4,
+.paragraph4 {
+  color: var(--white-color);
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
-.heading5, .paragraph5{
-    font-size: 0.5rem;
-    line-height: 1rem;
+.heading5,
+.paragraph5 {
+  color: var(--white-color);
+  font-size: 0.5rem;
+  line-height: 1rem;
 }
 
-.heading_desc, .para_desc{
-    font-size: 0.9rem;
+.heading_desc,
+.para_desc {
+  color: var(--white-color);
+  font-size: 0.9rem;
 }
 
-.font_weight300{
-    font-weight: 300;
+.font_weight300 {
+  color: var(--white-color);
+  font-weight: 300;
 }
 
-.font_weight400{
-    font-weight: 400;
+.font_weight400 {
+  color: var(--white-color);
+  font-weight: 400;
 }
 
-.font_weight600{
-    font-weight: 600;
+.font_weight600 {
+  color: var(--white-color);
+  font-weight: 600;
 }
 
-.font_weight700{
-    font-weight: 700;
+.font_weight700 {
+  color: var(--white-color);
+  font-weight: 700;
 }
 
-.font_weight900{
-    font-weight: 900;
+.font_weight900 {
+  color: var(--white-color);
+  font-weight: 900;
 }
 
-.font_size{
-    font-size: 2rem;
+.font_size {
+  font-size: 2rem;
 }
 
-.align_left{
-    text-align: left;
+.align_left {
+  text-align: left;
 }
 
-.align_center{
-    text-align: center;
+.align_center {
+  text-align: center;
 }
 
-.align_right{
-    text-align: right;
+.align_right {
+  text-align: right;
 }
