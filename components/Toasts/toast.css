@@ -4,8 +4,8 @@
   padding: 1rem;
   justify-content: space-between;
   border-radius: 0.5rem;
-  margin: 1rem;
-  font-weight: 700;
+  margin: 0.5rem;
+  font-weight: 600;
 }
 
 .toast > button > i {
@@ -13,37 +13,37 @@
 }
 
 .success_toast {
-  color: var(--success-shadow);
+  color: var(--black-color);
   border-left: 5px solid var(--success-shadow);
   background-color: var(--success-bg);
 }
 
 .warning_toast {
-  color: var(--warning-dark);
+  color: var(--black-color);
   border-left: 5px solid var(--warning-dark);
   background-color: var(--warning-bg);
 }
 
 .error_toast {
-  color: var(--error-dark);
+  color: var(--black-color);
   border-left: 5px solid var(--error-dark);
   background-color: var(--error-bg);
 }
 
 .info_toast {
-  color: var(--info-dark);
+  color: var(--black-color);
   border-left: 5px solid var(--info-dark);
   background-color: var(--info-bg);
 }
 
 .primary_toast {
-  color: var(--primary-color);
+  color: var(--black-color);
   border-left: 5px solid var(--primary-color);
   background-color: var(--info-bg);
 }
 
 .hide_toast > i {
-  color: var(--nav-item-color);
+  color: var(--black-color);
 }
 
 .hide_toast {

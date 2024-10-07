@@ -1,30 +1,41 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--primary-color);
-    align-items: center;
-    flex-wrap: wrap;
-    color: var(--white-color);
-    padding: 1rem;
+.show_nav {
+  height: 13rem;
+  margin: 1rem;
+  overflow-y: auto;
+  background-color: var(--white-color);
+  position: relative;
+  background-color: var(--component-bg);
 }
-  
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  padding: 1rem;
+}
+
 .nav_fixed {
   position: sticky;
   top: 0;
 }
-  
-.navbar>ul {
+
+.navbar > ul {
   list-style: none;
 }
 
-.nav_comp_link{
-  color: var(--white-color);
+.navbar_menu > li,
+.nav_comp_link {
+  color: white;
 }
-  
-.navbar>i, .navbar>img {
-    cursor: pointer;
+
+.navbar > i,
+.navbar > img {
+  cursor: pointer;
 }
-  
+
 .navbar_menu {
   display: flex;
   justify-content: flex-end;
@@ -32,120 +43,119 @@
   align-items: center;
   gap: 1.2rem;
 }
-  
-.show_nav_txt{
+
+.show_nav_txt {
   padding: 1rem;
-  color: var(--black-color);
+  color: var(--white-color);
 }
-  
+
 .nav_brand {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.nav_brand {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.hamburger_menu,
+.hamburger_menu_drawer {
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.navbar_menu li span {
+  margin-left: 0.1rem;
+  font-size: 0.9rem;
+}
+
+.navbar_menu img {
+  width: 2.19rem;
+  height: 2.19rem;
+  border-radius: 50%;
+}
+
+.drawer_container {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  width: 12.5rem;
+  height: 100%;
+  left: -15.625rem;
+  padding: 0.625rem;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  box-shadow: var(--shadow-color) 0px 5px 15px;
+}
+
+.drawer_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0 0.7rem 1rem;
+}
+
+.drawer_close {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.drawer_close:hover {
+  opacity: 0.8;
+}
+
+.transition_start {
+  left: 0;
+  transition: left 0.5s ease-out;
+}
+
+.transition_end {
+  left: -225px;
+  transition: left 0.5s ease-out;
+}
+
+.drawer_submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.drawer_submenu a {
+  padding: 0.5rem;
+}
+
+.drawer_submenu a .link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  border-radius: 0px 0.94rem 0.94rem 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    font-size: 0.8rem;
+    padding: 0.5rem;
   }
-  
+
+  .navbar_menu li span {
+    display: none;
+  }
+
   .nav_brand {
     margin-left: 0.5rem;
+  }
+
+  .hamburger_menu {
     font-size: 1rem;
-  }
-  
-  .hamburger_menu,
-  .hamburger_menu_drawer {
-    cursor: pointer;
-    font-size: 1.5rem;
     padding: 0.5rem;
   }
-  
-  .navbar_menu li span {
-    margin-left: 0.1rem;
-    font-size: 0.9rem;
-  }
-  
+
   .navbar_menu img {
-    width: 2.19rem;
-    height: 2.19rem;
-    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
   }
-  
-  .drawer_container {
-    background-color: var(--white-color);
-    color: var(--black-color);
-    width: 12.5rem;
-    height: 100%;
-    left: -15.625rem;
-    padding: 0.625rem;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    box-shadow: var(--shadow-color) 0px 5px 15px;
-  }
-  
-  .drawer_title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.7rem 0 0.7rem 1rem;
-  }
-  
-  .drawer_close {
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  
-  .drawer_close:hover {
-    opacity: 0.8;
-  }
-  
-  .transition_start {
-    left: 0;
-    transition: left 0.5s ease-out;
-  }
-  
-  .transition_end {
-    left: -225px;
-    transition: left 0.5s ease-out;
-  }
-  
-  .drawer_submenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  
-  .drawer_submenu a {
-    padding: 0.5rem;
-  }
-  
-  .drawer_submenu a .link {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 2rem 0.5rem 0.5rem;
-    border-radius: 0px 0.94rem 0.94rem 0px;
-    cursor: pointer;
-  }
- 
-  
-  @media screen and (max-width:550px) {
-    .navbar {
-      font-size: 0.8rem;
-      padding: 0.5rem;
-    }
-  
-    .navbar_menu li span {
-      display: none;
-    }
-  
-    .nav_brand {
-      margin-left: 0.5rem;
-    }
-  
-    .hamburger_menu {
-      font-size: 1rem;
-      padding: 0.5rem;
-    }
-  
-    .navbar_menu img {
-      width: 1.6rem;
-      height: 1.6rem;
-    }
-  }
+}

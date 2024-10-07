@@ -1,13 +1,16 @@
 :root {
   --black-color: rgb(0, 0, 0);
   --dark-nav-color: rgb(17, 17, 17);
-  /* --body-bg: rgb(26, 26, 26);  */
   --body-bg: rgb(26, 26, 26);
   --border-color: rgb(49, 49, 49);
+  --border-color-light: rgb(72, 72, 72);
   --dark-color-cl: rgb(52, 52, 53);
   --grey-text: rgb(83, 83, 83);
   --shadow-color: rgba(17, 17, 17, 0.664);
   --component-container: rgb(45, 45, 45);
+  --component-bg: rgb(23, 23, 23);
+  --alert-color: rgb(165, 163, 163);
+  --disabled: rgb(67, 67, 67);
 
   --nav-item-color: rgb(121, 120, 120);
   --tagline-color: rgb(179, 177, 177);
@@ -16,13 +19,6 @@
   --light-grey: rgb(231, 231, 231);
   --white-smoke-color: rgb(245, 245, 245);
   --white-color: rgb(255, 255, 255);
-
-  /* --info-bg: rgb(221, 235, 251);
-  --primary-color: rgb(43, 123, 184);
-  --primary-dark: rgb(38, 112, 168);
-  --scrollbar-color: rgb(29, 84, 126);
-  --info-dark: rgb(42, 37, 82);
-  --info-shadow: rgb(10, 9, 15); */
 
   --info-bg: rgb(221, 235, 251);
   --primary-color: rgb(43, 123, 184);
@@ -50,7 +46,4 @@
   --warning-dark: #c19612;
   --warning-color-cl: #f1bb16;
   --warning-dark: #fdc040;
-
-  --component-bg: rgb(23, 23, 23);
-  --alert-color: rgb(165, 163, 163);
 }

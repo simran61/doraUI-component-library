@@ -7,7 +7,7 @@
     <title>Inputs | DoraUI</title>
     <link rel="stylesheet" href="../pageNav.css" />
     <link rel="stylesheet" href="../component.css" />
-    <link rel="icon" href="../../assets/DoraUI.png" type="image/x-icon" />
+    <link rel="icon" href="../../assets/logo.png" type="image/x-icon" />
     <!-- font awesome cdn -->
     <link
       rel="stylesheet"
@@ -25,7 +25,7 @@
     <nav>
       <div class="logo">
         <a href="../../index.html"
-          ><img src="../../assets/1.png" alt="" class="logo_img"
+          ><img src="../../assets/logo.png" alt="" class="logo_img"
         /></a>
       </div>
 
@@ -88,22 +88,22 @@
     <div class="main">
       <div class="input_div" id="inputs_div">
         <div class="primary_heading">
-          <span class="span_heading brand_name">I</span>
-          <span class="span_heading text_theme">n</span>
-          <span class="span_heading text_theme">p</span>
-          <span class="span_heading text_theme">u</span>
-          <span class="span_heading text_theme">t</span>
-          <span class="span_heading text_theme">s</span>
+          <span class="letter brand_letter">I</span>
+          <span class="letter">n</span>
+          <span class="letter">p</span>
+          <span class="letter">u</span>
+          <span class="letter">t</span>
+          <span class="letter">s</span>
         </div>
-        <p class="padding_tb_0_7">
+        <p class="component_desc">
           The input tag specifies an input field where the user can enter data.
           The input element is the most important form element.
         </p>
 
         <!-- STANDARD INPUT FIELD STARTS-->
         <div id="default_input_div">
-          <h2 class="theme_color mr_top_1_5">Input Field</h2>
-          <div class="show_avatar spacing">
+          <h2 class="component_heading">Input Field</h2>
+          <div class="component_container">
             <div class="input_box_div" id="textField">
               <div class="input_txt">
                 <label for="name" class="input_label">Full name</label>
@@ -134,8 +134,8 @@
 
         <!-- INPUT FIELD STATE RESPONSE STARTS-->
         <div id="errors_state_input_div">
-          <h2 class="theme_color mr_top_1_5">Input Field State Response</h2>
-          <div class="show_avatar spacing">
+          <h2 class="component_heading">Input Field State Response</h2>
+          <div class="component_container">
             <div class="input_box_div error_input" id="textField">
               <div class="input_txt_msg">
                 <label for="name" class="input_label error_txt">Username</label>
@@ -171,8 +171,8 @@
 
         <!-- RADIO FIELD STARTS-->
         <div id="radio_div">
-          <h2 class="theme_color mr_top_1_5">Radio Button</h2>
-          <div class="show_avatar show_alert">
+          <h2 class="component_heading">Radio Button</h2>
+          <div class="component_container">
             <label class="radio">
               <input type="radio" value="Mens" name="cloths" /><span
                 class="radio_text"
@@ -218,8 +218,8 @@
 
         <!-- CHECKBOX FIELD STARTS-->
         <div id="checkbox_div">
-          <h2 class="theme_color mr_top_1_5">Checkbox</h2>
-          <div class="show_avatar show_alert">
+          <h2 class="component_heading">Checkbox</h2>
+          <div class="component_container">
             <label class="checkbox">
               <input type="checkbox" name="" value="Womens Wear" />
               <span class="chechbox_text">Womens Wear</span>
@@ -257,8 +257,8 @@
 
         <!-- FORM EXAMPLE STARTS-->
         <div id="form_div">
-          <h2 class="theme_color mr_top_1_5">Basic Form Example</h2>
-          <div class="show_avatar spacing">
+          <h2 class="component_heading">Basic Form Example</h2>
+          <div class="component_container show_flex justify_evenly">
             <div class="form">
               <h1 class="form_heading">Login Form</h1>
               <div class="input_box_div form_input grey_bg" id="textField">
@@ -277,7 +277,7 @@
                 <input class="input_box" type="email" />
               </div>
               <div class="credentials_options">
-                <label class="">
+                <label>
                   <input type="checkbox" name="" value="Womens Wear" />
                   <span class="chechbox_text">Remember Me</span>
                 </label>
@@ -286,11 +286,9 @@
               <button class="btn btn_primary btn_rounded btn_center">
                 <a href="https://simran-gangwani.netlify.app/">Login Now</a>
               </button>
-              <p class="block">
-                <a href="#" class="black_color"
-                  >Create new account <i class="fa-solid fa-chevron-right"></i
-                ></a>
-              </p>
+              <a class="form_link" href="#"
+                >Create new account <i class="fa-solid fa-chevron-right"></i
+              ></a>
             </div>
           </div>
           <iframe

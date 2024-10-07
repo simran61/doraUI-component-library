@@ -1,5 +1,5 @@
 .btn {
-  color: var(--white-color);
+  color: white;
   font-weight: 600;
   padding: 0.7rem 1rem;
   border: none;
@@ -17,7 +17,7 @@
 }
 
 .btn_primary > a {
-  color: var(--white-color);
+  color: white;
 }
 
 .btn_primary:hover {
@@ -86,19 +86,20 @@
 
 .btn_secondary:hover {
   background-color: var(--primary-color);
-  color: var(--white-color);
+  color: white;
 }
 
 .btn_outline {
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
   padding: 0.6rem 0.9rem;
-  background-color: #fff;
+
+  background-color: var(--component-bg);
 }
 
 .btn_outline:hover {
   background-color: var(--primary-color);
-  color: var(--white-color);
+  color: white;
 }
 
 .btn_light_out {
@@ -107,7 +108,7 @@
 
 .btn_light_out:hover {
   background-color: var(--primary-color);
-  color: var(--white-color);
+  color: white;
 }
 
 .link_btn {

@@ -14,7 +14,7 @@ ol > li {
 
 .customized_list {
   width: 80%;
-  background-color: var(--white-smoke-color);
+  background-color: var(--component-bg);
   border: 1px solid var(--nav-item-color);
   margin: 1rem;
 }
@@ -24,7 +24,7 @@ ol > li {
   list-style: none;
   padding: 1rem 2rem;
   border-top: 1px solid var(--nav-item-color);
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .list-item:first-child {
@@ -37,6 +37,7 @@ ol > li {
 }
 
 .stacked_list_para {
+  opacity: 80%;
   margin: 0.6rem 0;
 }
 

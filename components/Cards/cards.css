@@ -1,45 +1,60 @@
 .card {
-  width: 20.625rem;
+  width: 18rem;
   height: fit-content;
   border-radius: 0.7rem;
-  background-color: var(--white-color);
-  box-shadow: 0px 0px 0.313rem var(--shadow-color);
+  background-color: var(--component-bg);
+  color: var(--white-color);
+  border: 1px solid var(--border-color-light);
   margin: 1rem;
 }
 
+.card_badge .card_img {
+  position: relative;
+}
+
 .card_img {
+  overflow: hidden;
   height: 11.25rem;
 }
 
 .card_img img {
-  width: 20.635rem;
+  width: 18rem;
   height: 11.25rem;
   border-radius: 0.7rem 0.7rem 0 0;
+  object-fit: cover;
 }
 
 .vertical_links {
   padding: 1.5rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .btn_like {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 0;
+  color: var(--primary-color);
 }
 
 .ecomm_vertical_img img {
-  width: 15rem;
-  height: 15rem;
+  /* width: 15rem; */
+  /* height: 15rem; */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: flex;
   margin: auto;
+  border-radius: 0.7rem 0.7rem 0 0;
 }
 
 .ecomm_vertical_img {
+  width: 100%;
+  height: 12rem;
   background-color: var(--info-bg);
   border-radius: 0.7rem 0.7rem 0 0;
+  position: relative;
 }
 
 .relative {
@@ -52,6 +67,8 @@
   left: 0;
   background-color: var(--error-dark);
   padding: 0.2rem 1rem;
+  color: white;
+  font-weight: 600;
 }
 
 .dismiss {
@@ -74,21 +91,63 @@
 }
 
 .card_headings {
-  padding: 1rem 0;
-  color: var(--black-color);
+  padding: 1rem 0 0.5rem 0;
+  color: var(--white-color);
 }
 
-.tagline {
-  margin-top: 0.3rem;
+.card_tagline {
+  font-size: 13px;
+  color: var(--nav-item-color);
+}
+
+.card_tagline_overlay {
+  font-size: 13px;
+}
+
+.card_category {
+  font-size: 14px;
+  color: var(--nav-item-color);
+}
+
+.card_horizontal_ecom .card_headings .card_category {
+  padding-bottom: 0.7rem;
+}
+
+.product_category {
+  color: var(--nav-item-color);
+}
+
+.c6_card_img > img {
+  height: 100%;
 }
 
 .desc {
-  color: var(--black-color);
+  color: var(--white-color);
+}
+
+.card_header_hori {
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.desc_sm {
+  font-size: 14px;
+  margin-top: 0.4rem;
+  overflow: hidden;
+  width: 95%;
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  opacity: 90%;
 }
 
 .card_links {
   padding: 1rem 0;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -96,26 +155,56 @@
   padding: 0.7rem 0;
 }
 
+.card_horizontal_ecom {
+  width: 32rem;
+  display: flex;
+}
+
+.company_name {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.price_vertical {
+  display: flex;
+  flex-direction: column;
+}
+
 .mr_sm {
   margin-right: 0.5rem;
 }
 
 .text_links a:first-child {
-  margin-right: 1.25rem;
+  margin-right: 0.35rem;
 }
 
-a {
+.text_links > a {
+  color: var(--primary-color);
   text-decoration: none;
   font-weight: 550;
 }
 
-.grey_text {
+.product_by {
+  font-size: 14px;
+  padding: 0.8rem 0 0.4rem 0;
+}
+
+.card_desc_light {
+  opacity: 80%;
+}
+
+.icon {
   color: var(--nav-item-color);
+  margin: 7px;
 }
 
 .icon_links a {
-  margin-left: 1.063rem;
+  margin-left: 0.4rem;
   font-size: 1.2rem;
+}
+
+.icon_links a i {
+  color: var(--nav-item-color);
 }
 
 /* card 3 */
@@ -124,48 +213,49 @@ a {
 }
 
 /* card 4 */
-.card4 {
+.card_overlay {
   position: relative;
 }
 
 .above_img {
   position: absolute;
   top: 6.563rem;
-  color: var(--white-color);
-  text-shadow: 2px 2px 4px var(--black-color);
+  color: white;
 }
 
 .margin_top_sm {
   margin-top: 0.94rem;
 }
 
-/* card 5 */
-.card5 .fix_bRadius {
+.card_header .fix_bRadius {
   border-radius: 0;
 }
 
 .c5_card_headings {
-  padding: 1rem;
-  color: var(--black-color);
+  padding: 0.7rem 1rem;
+  color: var(--white-color);
 }
 
-/* card 6 */
-.card6 {
+.card_horizontal {
   width: 25rem;
+  width: 26rem;
 }
 
-.card7 {
+.card_horizontal_ecom_quantity {
   width: 32rem;
 }
 
-.card8 > .card_content {
+.card_vertical_ecom > .card_content {
   padding: 0;
 }
 
 .img_bg {
+  /* height: 9.7rem;
+  width: 9.7rem; */
   background-color: var(--info-bg);
   border-top-left-radius: 0.7rem;
   width: 30%;
+  /* height: 100%; */
 }
 
 .card_footer {
@@ -175,20 +265,31 @@ a {
   justify-content: space-between;
 }
 
-.price {
-  text-align: center;
-}
-
 .original_price {
   text-decoration: line-through;
-  font-weight: bold;
-  margin: 0.2rem 0.4rem 0.2rem 0;
+  font-weight: 600;
+  margin: 0rem 0.4rem 0.2rem 0;
   display: inline-block;
+  color: var(--nav-item-color);
+}
+
+.original_price_vertical {
+  text-decoration: line-through;
+  font-size: 14px;
+
+  color: var(--nav-item-color);
 }
 
 .discount_price {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--primary-color);
+}
+
+.discount_price_vertical {
   font-weight: bold;
-  color: var(--error-dark);
+  color: var(--primary-color);
+  font-size: 18px;
 }
 
 .product_price {
@@ -197,12 +298,14 @@ a {
   font-size: 1.2rem;
 }
 
-.txt_md {
-  font-size: 1.2rem;
+.hori_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.yellow {
-  color: var(--warning-dark);
+.txt_md {
+  font-size: 1.1rem;
 }
 
 .btn_quan {
@@ -227,12 +330,48 @@ a {
   background-color: var(--info-bg);
 }
 
-.c7_card_img img {
-  height: 9.7rem;
-  width: 9.7rem;
+.card_horizontal_ecom_quantity .section1 .img_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_horizontal_ecom .card_img {
+  flex-basis: 100%;
+  background-color: #fff;
+}
+
+.card_horizontal_ecom .card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .padding_sm {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.card_overlay > .card_img {
+  position: relative;
+}
+
+.img_overlay {
+  opacity: 0.7;
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0), #000000e0, #000); */
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.56),
+    rgba(0, 0, 0, 0.76),
+    rgba(0, 0, 0, 0.945),
+    #000
+  );
+}
+
+.card_rating i {
+  color: var(--warning-dark);
 }

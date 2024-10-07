@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="./assets/DoraUI.png" height="40" width="40" alt="DoraUI logo"/>
+  <img src="./assets/logo.png" height="40" width="40" alt="DoraUI logo"/>
   
 # [Dora UI - A CSS Utility based Component Library](https://doraui-simran.netlify.app/)
 
 A doremon for website UI
+
 </div>
 
 ## **Table of contents**
@@ -76,7 +77,6 @@ Just copy-paste the stylesheet `<link>`'s into your `<head>` to load our CSS.
 
 ![doraUI](https://user-images.githubusercontent.com/82234663/155046560-ee0426ef-fddd-427e-baef-2fb528a9eca6.gif)
 
-
 ![DoraUI LANDING PAGE](https://user-images.githubusercontent.com/82234663/155044489-0b432fe6-072f-41e5-a5ef-c8d242bdc64c.png)
 <br>
 <br>
@@ -90,8 +90,6 @@ Just copy-paste the stylesheet `<link>`'s into your `<head>` to load our CSS.
 <br/><br>
 <br>
 ![Navigation](https://user-images.githubusercontent.com/82234663/155045339-1ffe3b56-ea26-450c-84de-175ad8f6e9af.png)
-
-
 
 <br />
 

@@ -37,19 +37,23 @@
 
 .noti_badge {
   position: absolute;
-  top: 0.3rem;
-  right: 0.5rem;
+  /* top: 0.3rem; */
+  /* right: 0.5rem; */
+  top: -3.3rem;
+  right: 0.6rem;
   font-size: 0.8rem;
   background-color: var(--danger-color);
   border-radius: 100%;
   padding: 0.1rem 0.2rem;
-  border: 0.063rem solid var(--white-color);
+  color: white;
 }
 
 .noti_icon {
   position: absolute;
-  top: 0rem;
-  right: 0.9rem;
+  /* top: 0rem; */
+  /* right: 0.9rem; */
+  bottom: 3.3rem;
+  right: 0.6rem;
   font-size: 1.3rem;
   color: var(--danger-color);
 }

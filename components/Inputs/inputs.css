@@ -1,14 +1,13 @@
 .input_box_div {
-  width: 100%;
-  background-color: var(--white-smoke-color);
+  background-color: var(--component-bg);
   margin: 1rem;
   border-radius: 0.5rem;
-  border: 1.5px solid var(--nav-item-color);
+  border: 1px solid var(--border-color-light);
   padding: 0.2rem 0.8rem;
 }
 
 .input_label {
-  color: var(--grey-text);
+  color: var(--alert-color);
   font-size: 0.8rem;
 }
 
@@ -22,7 +21,12 @@
 }
 
 .disabled {
-  background-color: var(--md-grey);
+  background-color: var(--disabled);
+  cursor: not-allowed;
+}
+
+.disabled > input {
+  cursor: not-allowed;
 }
 
 .grey_bg {
@@ -65,12 +69,12 @@
 }
 
 .form {
-  background-color: var(--white-smoke-color);
+  background-color: var(--component-bg);
   width: 80%;
   margin: 1rem;
   border-radius: 0.7rem;
   padding: 1rem 2rem;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-color-light);
 }
 
 .form_heading {
@@ -81,6 +85,7 @@
 
 .form_input {
   margin: 1rem 0;
+  background-color: var(--component-container);
 }
 
 .credentials_options {
@@ -98,12 +103,9 @@
   margin: 0 auto;
 }
 
-.block {
+.form_link {
+  color: var(--white-color);
   display: block;
   text-align: center;
   margin: 0.7rem;
-}
-
-.black_color {
-  color: var(--black-color);
 }

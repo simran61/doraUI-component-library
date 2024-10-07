@@ -1,11 +1,11 @@
-.star{
-    font-size: 2rem;
-    margin: 0.3rem;
-    color: var(--nav-item-color);
-    cursor: pointer;
+.star {
+  font-size: 2rem;
+  margin: 0.3rem;
+  color: var(--nav-item-color);
+  cursor: pointer;
 }
 
-.rating_desc{
-    margin-top: 0.7rem;
-    color: var(--black-color);
+.rating_desc {
+  margin-top: 0.7rem;
+  color: var(--white-color);
 }

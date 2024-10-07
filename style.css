@@ -12,16 +12,14 @@
   --grey-text: rgb(165, 163, 163);
   --secondary-color: #fd2155;
   --primary-color: #2b7bb8;
-  --dark-nav-color: #cad7e0;
-  /* --dark-nav-color: #ffffff; */
+  --dark-nav-color: #ffffff;
   --tagline-color: rgb(83, 82, 82);
-  --body-bg: #e9f1f5;
-  /* --body-bg: #f7f7f7; */
+  --body-bg: #f4f4f5;
   --nav-item-color: rgb(1, 0, 0);
   --white-color: black;
   --white-color: rgb(24, 24, 24);
-  --border-color: #e3e3e3c7;
-  /* --component-container: rgb(255, 255, 255); */
+  --border-color: #e7e5e4;
+  --border-color: #e0dfde;
 }
 
 body {
@@ -97,7 +95,7 @@ nav {
 
 .brand_name {
   color: var(--secondary-color);
-  text-shadow: -0.3rem -0.3rem var(--primary-color);
+  text-shadow: -5px -5px var(--primary-color);
 }
 
 .html_tag {
@@ -318,7 +316,7 @@ button span {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 0.31rem grey;
+  /* box-shadow: inset 0 0 0.31rem grey; */
   border-radius: 0.625rem;
 }
 
