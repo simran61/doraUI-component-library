@@ -97,7 +97,8 @@
 
 .card_tagline {
   font-size: 13px;
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
+  opacity: 90%;
 }
 
 .card_tagline_overlay {
@@ -106,7 +107,8 @@
 
 .card_category {
   font-size: 14px;
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
+  opacity: 90%;
 }
 
 .card_horizontal_ecom .card_headings .card_category {
@@ -114,7 +116,7 @@
 }
 
 .product_category {
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
 }
 
 .c6_card_img > img {
@@ -193,18 +195,19 @@
   opacity: 80%;
 }
 
-.icon {
-  color: var(--nav-item-color);
-  margin: 7px;
-}
-
 .icon_links a {
   margin-left: 0.4rem;
   font-size: 1.2rem;
 }
 
 .icon_links a i {
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
+  opacity: 60%;
+}
+
+.icon_links a i:hover {
+  color: var(--primary-color);
+  opacity: 100%;
 }
 
 /* card 3 */
@@ -270,14 +273,14 @@
   font-weight: 600;
   margin: 0rem 0.4rem 0.2rem 0;
   display: inline-block;
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
 }
 
 .original_price_vertical {
   text-decoration: line-through;
   font-size: 14px;
 
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
 }
 
 .discount_price {

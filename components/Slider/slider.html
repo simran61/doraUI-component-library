@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="../pageNav.css" />
     <link rel="stylesheet" href="../component.css" />
     <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
-    <!-- font awesome cdn -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -21,7 +20,6 @@
   <body>
     <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt="" /></a>
 
-    <!-- NAV BAR STARTS -->
     <nav>
       <div class="logo">
         <a href="../../index.html"
@@ -86,66 +84,63 @@
     </nav>
 
     <div class="main">
-      <!-- SLIDER DIV STARTS -->
-      <div class="button_div" id="button_div">
-        <div class="primary_heading">
-          <span class="letter brand_letter">S</span>
-          <span class="letter">l</span>
-          <span class="letter">i</span>
-          <span class="letter">d</span>
-          <span class="letter">e</span>
-          <span class="letter">r</span>
-        </div>
+      <div class="primary_heading">
+        <span class="letter brand_letter">S</span>
+        <span class="letter">l</span>
+        <span class="letter">i</span>
+        <span class="letter">d</span>
+        <span class="letter">e</span>
+        <span class="letter">r</span>
+      </div>
 
-        <p class="component_desc">
-          Sliders are used to decide range for something like sound in videos,
-          price in shopping sites, etc.
-        </p>
+      <p class="component_desc">
+        Sliders are used to decide range for something like sound in videos,
+        price in shopping sites, etc.
+      </p>
 
-        <!-- DEFAULT SLIDER STARTS-->
-        <div id="default_button_div">
-          <h2 class="component_heading">Default Slider</h2>
-          <div class="component_container">
-            <div class="range_box">
-              <div class="slider">
-                <input
-                  type="range"
-                  min="0"
-                  max="100"
-                  value="20"
-                  class="rangeSlider"
-                />
-              </div>
-              <div class="value"></div>
+      <!-- Default Slider -->
+      <div>
+        <h2 class="component_heading">Default Slider</h2>
+        <div class="component_container">
+          <div class="range_box">
+            <div class="slider">
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="20"
+                class="rangeSlider"
+              />
             </div>
+            <div class="value"></div>
           </div>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522range_box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252220%2522%2520class%253D%2522rangeSlider%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 862px;
-              height: 248px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520slider%253D%2520document.querySelector%28%27.rangeSlider%27%29%253B%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250Aconst%2520value%253D%2520document.querySelector%28%27.value%27%29%253B%250A%250Avalue.innerText%253D%2520slider.value%253B%250A%250Aslider.oninput%2520%253D%2520function%28%29%257B%250A%2520%2520%2520%2520value.innerText%253Dthis.value%250A%257D"
-            style="
-              width: 862px;
-              height: 285px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
         </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522range_box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252220%2522%2520class%253D%2522rangeSlider%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          style="
+            width: 862px;
+            height: 248px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520slider%253D%2520document.querySelector%28%27.rangeSlider%27%29%253B%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250Aconst%2520value%253D%2520document.querySelector%28%27.value%27%29%253B%250A%250Avalue.innerText%253D%2520slider.value%253B%250A%250Aslider.oninput%2520%253D%2520function%28%29%257B%250A%2520%2520%2520%2520value.innerText%253Dthis.value%250A%257D"
+          style="
+            width: 862px;
+            height: 285px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
       </div>
     </div>
 

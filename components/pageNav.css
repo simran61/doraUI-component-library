@@ -9,27 +9,6 @@
   scroll-behavior: smooth;
 }
 
-.light_theme {
-  --body-color: #b5c7d4;
-  --grey-text: rgb(165, 163, 163);
-  --secondary-color: #fd2155;
-  --primary-color: #2b7bb8;
-  --dark-nav-color: #fff;
-  --tagline-color: rgb(83, 82, 82);
-  --nav-item: rgb(83, 83, 83);
-  --body-bg: #f4f4f5;
-  --body-bg: #f4f4f5;
-  --light-bg: rgb(211, 210, 210);
-  --white-color: black;
-  --nav-item-color: rgb(73, 72, 72);
-  --component-bg: #fafafa;
-  --alert-color: black;
-  --component-container: rgb(255, 255, 255);
-  --border-color: #e0dfde;
-  --border-color-light: #e0dfde;
-  --disabled: rgb(232, 232, 232);
-}
-
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -113,7 +92,8 @@ nav {
 }
 
 .nav_item {
-  color: var(--nav-item-color);
+  font-weight: 400;
+  color: var(--tagline-color);
 }
 
 .nav_item:hover,

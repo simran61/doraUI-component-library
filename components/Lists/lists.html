@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="../pageNav.css" />
     <link rel="stylesheet" href="../component.css" />
     <link rel="icon" href="../../assets/logo.png" type="image/x-icon" />
-    <!-- font awesome cdn -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -21,7 +20,6 @@
   <body>
     <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt="" /></a>
 
-    <!-- NAV BAR STARTS -->
     <nav>
       <div class="logo">
         <a href="../../index.html"
@@ -84,203 +82,199 @@
     </nav>
 
     <div class="main">
-      <!-- LIST DIV STARTS -->
-      <div class="alerts_div" id="lists_div">
-        <div class="primary_heading">
-          <span class="letter brand_letter">L</span>
-          <span class="letter">i</span>
-          <span class="letter">s</span>
-          <span class="letter">t</span>
-          <span class="letter">s</span>
-        </div>
+      <div class="primary_heading">
+        <span class="letter brand_letter">L</span>
+        <span class="letter">i</span>
+        <span class="letter">s</span>
+        <span class="letter">t</span>
+        <span class="letter">s</span>
+      </div>
 
-        <p class="component_desc">
-          Lists allow web developers to group a set of related items in lists.
-        </p>
+      <p class="component_desc">
+        Lists allow web developers to group a set of related items in lists.
+      </p>
 
-        <!-- UNORDERED LIST DIV STARTS-->
-        <div id="unordered_list_div">
-          <h2 class="component_heading">Unordered List</h2>
-          <div class="component_container show_flex justify_evenly">
-            <div class="list_style">
-              <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ul>
-            </div>
-
-            <div class="list_style">
-              <ul type="circle">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ul>
-            </div>
-
-            <div class="list_style">
-              <ul type="square">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ul>
-            </div>
-
-            <div class="list_style">
-              <ul type="none">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ul>
-            </div>
-          </div>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cul%2520type%253D%2522circle%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cul%2520type%253D%2522square%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cul%2520type%253D%2522none%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
-            style="
-              width: 887px;
-              height: 419px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-
-        <!-- ORDERED LIST DIV STARTS-->
-        <div id="ordered_list_div">
-          <h2 class="component_heading">Ordered List</h2>
-          <div class="component_container show_flex justify_evenly">
-            <div class="ol_list_style">
-              <ol>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ol>
-            </div>
-
-            <div class="ol_list_style">
-              <ol type="I">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ol>
-            </div>
-
-            <div class="ol_list_style">
-              <ol type="i">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ol>
-            </div>
-
-            <div class="ol_list_style">
-              <ol type="A">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ol>
-            </div>
-
-            <div class="ol_list_style">
-              <ol type="a">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-              </ol>
-            </div>
-          </div>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522I%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522i%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522A%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522a%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E"
-            style="
-              width: 879px;
-              height: 494px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-
-        <!-- CUSTOMIZED LIST STARTS-->
-        <div id="spaced_list_div">
-          <h2 class="component_heading">Spaced (basic) List</h2>
-          <div class="component_container show_flex justify_evenly">
-            <ul class="customized_list">
-              <li class="list-item">Item One</li>
-              <li class="list-item">Item Two</li>
-              <li class="list-item">Item Three</li>
-              <li class="list-item">Item Four</li>
-              <li class="list-item">Item Five</li>
+      <!-- Unordered List -->
+      <div>
+        <h2 class="component_heading">Unordered List</h2>
+        <div class="component_container show_flex justify_evenly">
+          <div class="list_style">
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
             </ul>
           </div>
 
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522customized_list%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Three%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Four%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Five%253C%252Fli%253E%250A%253C%252Ful%253E"
-            style="
-              width: 879px;
-              height: 270px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-
-        <!-- STACKED LIST STARTS-->
-        <div id="stacked_list_div">
-          <h2 class="component_heading">Stacked List</h2>
-          <div class="component_container show_flex justify_evenly">
-            <ul class="customized_list">
-              <li class="list-item">
-                <div class="list-heading">
-                  <h3>Stacked Heading 1</h3>
-                  <h4>5 hours ago</h4>
-                </div>
-                <div class="stacked_list_para">
-                  <p>Lorem ipsum dolor sit amet consectetur.</p>
-                  <p class="para_sm">Lorem ipsum dolor sit amet consectetur.</p>
-                </div>
-              </li>
-
-              <li class="list-item">
-                <div class="list-heading">
-                  <h3>Stacked Heading 2</h3>
-                  <h4>2 days ago</h4>
-                </div>
-                <div class="stacked_list_para">
-                  <p>Lorem ipsum dolor sit amet consectetur.</p>
-                  <p class="para_sm">Lorem ipsum dolor sit amet consectetur.</p>
-                </div>
-              </li>
+          <div class="list_style">
+            <ul type="circle">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
             </ul>
           </div>
 
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522customized_list%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EStacked%2520Heading%25201%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E5%2520hours%2520ago%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked_list_para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para_sm%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EStacked%2520Heading%25202%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E2%2520days%2520ago%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked_list_para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESome%2520placeholder%2520content%2520in%2520a%2520paragraph%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para_sm%2522%253ESome%2520placeholder%2520content%2520in%2520a%2520paragraph%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
-            style="
-              width: 879px;
-              height: 568px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+          <div class="list_style">
+            <ul type="square">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+          </div>
+
+          <div class="list_style">
+            <ul type="none">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+          </div>
         </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cul%2520type%253D%2522circle%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cul%2520type%253D%2522square%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cul%2520type%253D%2522none%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+          style="
+            width: 887px;
+            height: 419px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <!-- Ordered List -->
+      <div>
+        <h2 class="component_heading">Ordered List</h2>
+        <div class="component_container show_flex justify_evenly">
+          <div class="ol_list_style">
+            <ol>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ol>
+          </div>
+
+          <div class="ol_list_style">
+            <ol type="I">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ol>
+          </div>
+
+          <div class="ol_list_style">
+            <ol type="i">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ol>
+          </div>
+
+          <div class="ol_list_style">
+            <ol type="A">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ol>
+          </div>
+
+          <div class="ol_list_style">
+            <ol type="a">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ol>
+          </div>
+        </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522I%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522i%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522A%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Col%2520type%253D%2522a%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%2520%2520%253Cli%253EItem%25202%253C%252Fli%253E%2520%2520%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E"
+          style="
+            width: 879px;
+            height: 494px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <!-- Spaced (basic) List -->
+      <div>
+        <h2 class="component_heading">Spaced (basic) List</h2>
+        <div class="component_container show_flex justify_evenly">
+          <ul class="customized_list">
+            <li class="list-item">Item One</li>
+            <li class="list-item">Item Two</li>
+            <li class="list-item">Item Three</li>
+            <li class="list-item">Item Four</li>
+            <li class="list-item">Item Five</li>
+          </ul>
+        </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522customized_list%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520One%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Three%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Four%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%2520Five%253C%252Fli%253E%250A%253C%252Ful%253E"
+          style="
+            width: 879px;
+            height: 270px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <!-- Stacked List -->
+      <div>
+        <h2 class="component_heading">Stacked List</h2>
+        <div class="component_container show_flex justify_evenly">
+          <ul class="customized_list">
+            <li class="list-item">
+              <div class="list-heading">
+                <h3>Stacked Heading 1</h3>
+                <h4>5 hours ago</h4>
+              </div>
+              <div class="stacked_list_para">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="para_sm">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </li>
+
+            <li class="list-item">
+              <div class="list-heading">
+                <h3>Stacked Heading 2</h3>
+                <h4>2 days ago</h4>
+              </div>
+              <div class="stacked_list_para">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="para_sm">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522customized_list%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EStacked%2520Heading%25201%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E5%2520hours%2520ago%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked_list_para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para_sm%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EStacked%2520Heading%25202%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E2%2520days%2520ago%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked_list_para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESome%2520placeholder%2520content%2520in%2520a%2520paragraph%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para_sm%2522%253ESome%2520placeholder%2520content%2520in%2520a%2520paragraph%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+          style="
+            width: 879px;
+            height: 568px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
       </div>
     </div>
 
     <script src="../themeToggle.js"></script>
-    <!-- <script src="../../app.js"></script> -->
   </body>
 </html>

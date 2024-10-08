@@ -8,20 +8,6 @@
   scroll-behavior: smooth;
 }
 
-.light_theme {
-  --grey-text: rgb(165, 163, 163);
-  --secondary-color: #fd2155;
-  --primary-color: #2b7bb8;
-  --dark-nav-color: #ffffff;
-  --tagline-color: rgb(83, 82, 82);
-  --body-bg: #f4f4f5;
-  --nav-item-color: rgb(1, 0, 0);
-  --white-color: black;
-  --white-color: rgb(24, 24, 24);
-  --border-color: #e7e5e4;
-  --border-color: #e0dfde;
-}
-
 body {
   display: flex;
   color: var(--white-color);
@@ -56,7 +42,7 @@ nav {
 }
 
 .nav_item {
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
   text-decoration: none;
   font-weight: 550;
 }
@@ -75,7 +61,7 @@ nav {
 }
 
 .icon {
-  color: var(--nav-item-color);
+  color: var(--tagline-color);
   margin: 0.5rem;
   font-size: 1.1rem;
 }

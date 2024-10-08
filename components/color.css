@@ -15,7 +15,7 @@
   --nav-item-color: rgb(121, 120, 120);
   --tagline-color: rgb(179, 177, 177);
   --md-grey: rgb(199, 198, 198);
-  --light-bg: rgb(211, 210, 210);
+  /* --light-bg: rgb(211, 210, 210); */
   --light-grey: rgb(231, 231, 231);
   --white-smoke-color: rgb(245, 245, 245);
   --white-color: rgb(255, 255, 255);
@@ -46,4 +46,27 @@
   --warning-dark: #c19612;
   --warning-color-cl: #f1bb16;
   --warning-dark: #fdc040;
+}
+
+.light_theme {
+  /* --body-color: #b5c7d4; */
+  --grey-text: rgb(165, 163, 163);
+  /* --secondary-color: #fd2155; */
+  /* --primary-color: #2b7bb8; */
+  --dark-nav-color: #fff;
+  --tagline-color: rgb(83, 82, 82);
+  /* --nav-item: rgb(83, 83, 83); */
+  --body-bg: #f4f4f5;
+  /* --light-bg: rgb(211, 210, 210); */
+  --white-color: black;
+  --nav-item-color: rgb(73, 72, 72);
+  --component-bg: #fafafa;
+  --alert-color: black;
+  --component-container: rgb(255, 255, 255);
+  --border-color: #e0dfde;
+  --border-color-light: #e0dfde;
+  --disabled: rgb(232, 232, 232);
+
+  /* --white-color: rgb(24, 24, 24); */
+  --border-color: #e0dfde;
 }
