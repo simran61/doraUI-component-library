@@ -231,3 +231,78 @@ a {
   font-weight: 500;
   text-align: center;
 }
+
+/* responsive menu */
+.navigation-bar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--black);
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 1;
+}
+
+.humber-icon {
+  color: var(--main-color);
+}
+
+.navigation-bar > .logo > a > img {
+  width: 40px;
+  height: auto;
+}
+
+.navigation-bar > .logo {
+  padding: 0;
+}
+
+.humber-icon > i {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .modeIcon {
+    height: 27px;
+    top: 1.2rem;
+  }
+
+  .trans-on {
+    left: 0;
+    transition: left 0.5s ease-out;
+  }
+
+  .trans-off {
+    left: -260px;
+    transition: left 0.5s ease-out;
+  }
+
+  .sidebar-wrapper {
+    z-index: 5;
+  }
+
+  .sidebar-main {
+    font-size: 1.2rem;
+  }
+
+  .main {
+    margin-top: 3.75rem;
+    padding: 2rem;
+    padding-left: 2rem;
+    width: 100%;
+  }
+
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    background-color: var(--body-bg);
+  }
+
+  nav {
+    z-index: 100000000;
+  }
+}
