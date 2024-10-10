@@ -306,3 +306,14 @@ a {
     z-index: 100000000;
   }
 }
+
+/* code snippet */
+.code_wrapper {
+  width: 80%;
+}
+
+@media screen and (max-width: 1250px) {
+  .code_wrapper {
+    width: 100%;
+  }
+}
