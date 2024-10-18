@@ -49,11 +49,11 @@
 }
 
 .btn_dark {
-  background-color: var(--dark-color-cl);
+  background-color: var(--body-bg);
 }
 
 .btn_dark:hover {
-  background-color: var(--body-bg);
+  background-color: var(--dark-color-cl);
 }
 
 .btn_xsm {
@@ -122,6 +122,28 @@
 }
 
 .float_btn {
-  border-radius: 50%;
+  border-radius: 100%;
   font-size: 1.5rem;
+  height: 48px;
+  width: 48px;
+}
+
+@media screen and (max-width: 950px) {
+  .btn {
+    padding: 0.5rem 0.7rem;
+    font-size: 14px;
+  }
+
+  .btn_xsm {
+    font-size: 10px;
+  }
+
+  .btn_sm {
+    font-size: 12px;
+  }
+
+  .btn_lg {
+    padding: 0.65rem 1.1rem;
+    font-size: 16px;
+  }
 }
