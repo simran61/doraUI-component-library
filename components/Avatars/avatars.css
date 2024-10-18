@@ -1,34 +1,43 @@
 .avatar {
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 48px;
+  height: 48px;
   object-fit: cover;
   border-radius: 100%;
   margin: 0.5rem;
-  box-sizing: content-box;
 }
 
 .squared {
   border-radius: 8px;
 }
 
+.av_xs {
+  width: 24px;
+  height: 24px;
+}
+
 .av_sm {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 32px;
+  height: 32px;
 }
 
 .av_md {
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 48px;
+  height: 48px;
 }
 
 .av_lg {
-  width: 5rem;
-  height: 5rem;
+  width: 64px;
+  height: 64px;
 }
 
 .av_xl {
-  width: 6.25rem;
-  height: 6.25rem;
+  width: 96px;
+  height: 96px;
+}
+
+.av_2xl {
+  width: 128px;
+  height: 128px;
 }
 
 .avatar_badge {
@@ -37,10 +46,8 @@
 
 .noti_badge {
   position: absolute;
-  /* top: 0.3rem; */
-  /* right: 0.5rem; */
-  top: -3.3rem;
   right: 0.6rem;
+  bottom: 48px;
   font-size: 0.8rem;
   background-color: var(--danger-color);
   border-radius: 100%;
@@ -50,9 +57,7 @@
 
 .noti_icon {
   position: absolute;
-  /* top: 0rem; */
-  /* right: 0.9rem; */
-  bottom: 3.3rem;
+  bottom: 44px;
   right: 0.6rem;
   font-size: 1.3rem;
   color: var(--danger-color);
