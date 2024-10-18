@@ -319,4 +319,8 @@ a {
   .code_wrapper {
     width: 100%;
   }
+
+  .primary_heading {
+    font-size: 3rem;
+  }
 }
