@@ -8,7 +8,7 @@
   --grey-text: rgb(83, 83, 83);
   --shadow-color: rgba(17, 17, 17, 0.664);
   --component-container: rgb(45, 45, 45);
-  --component-bg: rgb(23, 23, 23);
+  --component-bg: rgb(30, 30, 30);
   --alert-color: rgb(165, 163, 163);
   --disabled: rgb(67, 67, 67);
 
@@ -32,18 +32,18 @@
   --error-bg: #fed7d7;
   --error-dark: #fd4e4e;
   --danger-color: rgb(250, 52, 52);
-  --error-shadow: #8b2929;
+  --error-shadow: #701c1c;
 
   --success-bg: #c6f6d5;
   --success-shadow: #2ea388;
-  --success-darker: #27856f;
+  --success-darker: #186654;
   --success-dark: #3ad4af;
   --online-color: rgb(27, 172, 51);
   --success-color-cl: #13921a;
 
   --warning-bg: #feebc8;
   --warning-shadow: #b88c2d;
-  --warning-dark: #c19612;
+  --warning-darker: #8b6c0e;
   --warning-color-cl: #f1bb16;
   --warning-dark: #fdc040;
 }
