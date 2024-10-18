@@ -111,6 +111,7 @@ nav {
 .logo_img {
   width: 100.8px;
   height: 85px;
+  /* mix-blend-mode: multiply; */
 }
 
 .social_icons {
