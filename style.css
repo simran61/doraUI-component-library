@@ -62,17 +62,17 @@ a {
   margin-bottom: 0.5rem;
 }
 
-.showAside {
+/* .showAside {
   position: absolute;
   top: 58%;
   left: 57%;
-}
+} */
 
-.p_close {
+/* .p_close {
   position: absolute;
   top: 68%;
   left: 43.5%;
-}
+} */
 
 .mr_btm_1 {
   margin-bottom: 1rem;
@@ -177,7 +177,7 @@ button span {
 }
 
 #features {
-  height: 100vh;
+  min-height: 100vh;
   padding: 1.5rem 0;
   /* position: relative; */
 }
@@ -190,15 +190,16 @@ button span {
 
 .features {
   display: flex;
+  flex-wrap: wrap;
   /* padding: 2rem 4.5rem; */
   padding: 0rem 0 0rem 4.5rem;
 }
 
-.features_h2_tag {
+/* .features_h2_tag {
   position: absolute;
   top: 18%;
   left: 38%;
-}
+} */
 
 .card_feature_tag {
   padding: 0.5rem 0;
@@ -219,11 +220,11 @@ button span {
   padding-bottom: 4rem;
 }
 
-.install_heading_tag {
+/* .install_heading_tag {
   position: absolute;
   top: 19%;
   left: 47%;
-}
+} */
 
 .link_para {
   font-size: 1.1rem;
@@ -261,4 +262,277 @@ button span {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--scrollbar-color);
+}
+
+/* code snippet */
+.code_snippet_guide {
+  width: 80%;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .code_snippet_guide {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    /* display: flex; */
+    /* color: var(--white-color); */
+    /* background-color: var(--body-bg); */
+    /* font-family: "Raleway", sans-serif; */
+  }
+
+  /* test */
+  a {
+    /* text-decoration: none; */
+    /* font-weight: 550; */
+  }
+  /* test */
+
+  .main {
+    /* padding-left: 14rem; */
+    padding: 1rem !important;
+  }
+
+  .brand_name {
+    /* color: var(--secondary-color); */
+    text-shadow: -4px -4px var(--primary-color);
+  }
+
+  .html_tag {
+    /* font-family: "Caveat", cursive; */
+    /* color: var(--grey-text); */
+    font-size: 16px;
+    /* display: block; */
+  }
+
+  .html_open {
+    margin-top: 0;
+  }
+
+  .mr_left_1_5 {
+    margin-left: 1rem;
+  }
+
+  .mr_left_3 {
+    margin-left: 2rem;
+  }
+
+  .mr_left_4_5 {
+    margin-left: 3rem;
+  }
+
+  .mr_p_open {
+    /* margin-top: -0.5rem; */
+    /* margin-top: 0rem; */
+    margin-left: 3rem;
+    /* margin-bottom: 0.5rem; */
+  }
+
+  .showAside {
+    /* position: absolute; */
+    /* top: 58%; */
+    /* left: 57%; */
+  }
+
+  .p_close {
+    /* position: absolute; */
+    /* top: 68%; */
+    /* left: 43.5%; */
+  }
+
+  .mr_btm_1 {
+    /* margin-bottom: 1rem; */
+  }
+
+  .primary_heading {
+    font-size: 2.2rem;
+    /* font-weight: 800; */
+    /* color: var(--white-color); */
+    /* display: flex; */
+  }
+
+  .span_heading:hover {
+    /* color: var(--primary-color); */
+    /* animation: jellyBounce 0.6s; */
+  }
+
+  .brand_name:hover {
+    /* color: var(--secondary-color); */
+    /* animation: jellyBounce 1s; */
+  }
+
+  @keyframes jellyBounce {
+    25% {
+      /* transform: scale(0.5, 1.4); */
+    }
+    50% {
+      /* transform: scale(1.6, 0.8); */
+    }
+    75% {
+      /* transform: scale(0.7, 1.4); */
+    }
+  }
+
+  .tagline {
+    /* color: var(--tagline-color); */
+    font-size: 1rem;
+    /* font-weight: 600; */
+  }
+
+  .primary_btn {
+    /* border: 1px solid var(--primary-color); */
+    /* background: transparent; */
+    /* letter-spacing: 0.125; */
+    /* outline: none; */
+    /* font-size: 1.1rem; */
+    /* padding: 1rem 2rem; */
+    /* margin: 0.5rem 0 0.5rem 3rem; */
+    /* color: var(--primary-color); */
+  }
+
+  .btn1 {
+    /* display: inline; */
+  }
+
+  .btn1 button {
+    /* position: relative; */
+    margin: 0.5rem 3rem;
+    /* border: 2px solid var(--primary-color); */
+    /* color: var(--white-color); */
+    /* background: transparent; */
+    padding: 0.5rem 0.8rem;
+    /* font-size: 16px; */
+    /* outline: none; */
+    /* cursor: pointer; */
+    /* box-shadow: 0 0.31rem 0.93rem rgba(0, 0, 0, 0.2); */
+    /* overflow: hidden; */
+  }
+
+  button:hover {
+    /* box-shadow: 0 0.31rem 1.9rem rgba(0, 0, 0, 0.2); */
+    /* color: white; */
+  }
+
+  .btn1 button:after {
+    /* position: absolute; */
+    /* content: ""; */
+    /* left: 0; */
+    /* top: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* transition: all 0.5s ease-in-out; */
+  }
+
+  .btn1 button:after {
+    /* background: var(--primary-color); */
+    /* transform: translate(-101%, 0%) rotate(0deg); */
+  }
+
+  .btn1:hover button:after {
+    /* background: var(--primary-color); */
+    /* transform: translate(0%, 0%) rotate(0deg); */
+  }
+
+  button span {
+    /* position: relative; */
+    /* z-index: 1; */
+  }
+
+  .mr_top_2 {
+    margin-top: 1rem;
+  }
+
+  #features {
+    /* height: 100vh; */
+    padding: 1rem 0;
+    /* position: relative; */
+  }
+
+  .feature_heading {
+    /* color: var(--secondary-color); */
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+
+  .features {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* padding: 2rem 4.5rem; */
+    padding: 0rem 0 0rem 4rem;
+  }
+
+  /* .features_h2_tag {
+    position: absolute;
+    top: 18%;
+    left: 38%;
+  } */
+
+  .card_feature_tag {
+    padding: 0rem 0 0.5rem 0;
+  }
+
+  .cards {
+    flex-basis: 100%;
+    /* margin-right: 2.5rem; */
+  }
+
+  .feature_img {
+    height: 4.25rem;
+    /* height: 10rem; */
+  }
+
+  #installation {
+    /* position: relative; */
+    /* padding-bottom: 4rem; */
+  }
+
+  /* .install_heading_tag {
+    position: absolute;
+    top: 19%;
+    left: 47%;
+  } */
+
+  .link_para {
+    /* font-size: 1rem; */
+    margin-top: 0.7rem;
+    width: 100%;
+  }
+
+  .font_style {
+    /* font-family: "Open Sans", sans-serif; */
+    /* color: var(--tagline-color); */
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+
+  .text_theme {
+    /* color: var(--primary-color); */
+  }
+
+  .get_started {
+    font-size: 13px;
+  }
+
+  /* CUSTOM SCROOL BAR STARTS */
+  ::-webkit-scrollbar {
+    /* width: 0.44rem; */
+  }
+
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 0.31rem grey; */
+    /* border-radius: 0.625rem; */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    /* background: var(--primary-color); */
+    /* border-radius: 0.625rem; */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-color);
+  }
 }
