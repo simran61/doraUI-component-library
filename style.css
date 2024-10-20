@@ -16,6 +16,17 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* test */
+a {
+  text-decoration: none;
+  font-weight: 550;
+}
+/* test */
+
+.main {
+  padding-left: 14rem;
+}
+
 .brand_name {
   color: var(--secondary-color);
   text-shadow: -5px -5px var(--primary-color);

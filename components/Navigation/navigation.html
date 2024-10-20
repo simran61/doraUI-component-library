@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigation | DoraUI</title>
     <link rel="stylesheet" href="../pageNav.css" />
+    <link rel="stylesheet" href="../../sideNav.css" />
     <link rel="stylesheet" href="../component.css" />
     <link rel="icon" href="../../assets/logo.png" type="image/x-icon" />
     <link
@@ -32,313 +33,319 @@
 
     <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt="" /></a>
 
-    <nav class="sidebar-wrapper trans-off">
-      <div class="logo">
-        <a href="../../index.html"
-          ><img src="../../assets/logo.png" alt="" class="logo_img"
-        /></a>
-      </div>
-
-      <ul class="nav_list">
-        <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
-        <li><a href="../Avatars/avatars.html" class="nav_item">Avatars</a></li>
-        <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
-        <li><a href="../Buttons/buttons.html" class="nav_item">Buttons</a></li>
-        <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
-        <li><a href="../Images/images.html" class="nav_item">Images</a></li>
-        <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
-        <li>
-          <a href="../Typography/typography.html" class="nav_item"
-            >Typography</a
-          >
-        </li>
-        <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
-        <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
-        <li>
-          <a href="../Navigation/navigation.html" class="nav_item active"
-            >Navigation</a
-          >
-        </li>
-        <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
-        <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
-        <li>
-          <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
-        </li>
-        <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
-      </ul>
-
-      <div class="social_icons">
-        <a class="icon" target="_blank" href="https://github.com/simran61"
-          ><i class="fab fa-github-alt"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://simran-gangwani.netlify.app/"
-          ><i class="fas fa-code"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          style="margin-bottom: 0px"
-          href="https://twitter.com/SimranGangwani3"
-          ><i class="fab fa-twitter"></i
-        ></a>
-      </div>
-    </nav>
-
-    <div class="main">
-      <div class="primary_heading">
-        <span class="letter brand_letter">N</span>
-        <span class="letter">a</span>
-        <span class="letter">v</span>
-        <span class="letter">&nbsp;</span>
-        <span class="letter brand_letter">B</span>
-        <span class="letter">a</span>
-        <span class="letter">r</span>
-      </div>
-
-      <p class="component_desc">
-        The nav HTML element represents a section of a page whose purpose is to
-        provide navigation links, either within the current document or to other
-        documents.
-      </p>
-
-      <!-- Scrollable Navbar -->
-      <div>
-        <h2 class="component_heading">Scrollable Navbar</h2>
-        <div class="component_container">
-          <div class="show_nav">
-            <div class="navbar">
-              <div class="nav_brand">
-                <i class="fa fa-bars hamburger_menu"></i>
-                <a class="nav_brand nav_comp_link" href="#">BrandName</a>
-              </div>
-              <ul class="navbar_menu">
-                <li>
-                  <i class="fa-regular fa-user"></i>
-                  <a href="#" class="nav_comp_link">Profile</a>
-                </li>
-                <li>
-                  <i class="fa-regular fa-comments"></i>
-                  <a href="#" class="nav_comp_link">Chats</a>
-                </li>
-                <li>
-                  <i class="fa-regular fa-pen-to-square"></i>
-                  <a href="#" class="nav_comp_link">Edit</a>
-                </li>
-                <li>
-                  <img
-                    src="https://i.pinimg.com/564x/a8/c3/02/a8c302bcb013813c42e713a5295c5360.jpg"
-                    alt=""
-                  />
-                </li>
-              </ul>
-            </div>
-            <p class="show_nav_txt">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-              quaerat tempore, quasi sunt corrupti <br />
-              vel repellat explicabo esse, mollitia eaque harum perferendis eum
-              veniam rem distinctio. Ipsa nihil possimus aliquam!
-              <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Dolore quaerat tempore, quasi sunt corrupti ve repellat <br />
-              explicabo esse, mollitia eaque harum perferendis eum veniam rem
-              distinctio. Ipsa nihil possimus aliquam!
-            </p>
-          </div>
+    <div class="container">
+      <nav class="sidebar-wrapper trans-off">
+        <div class="logo">
+          <a href="../../index.html"
+            ><img src="../../assets/logo.png" alt="" class="logo_img"
+          /></a>
         </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav_brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2520hamburger_menu%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav_brand%2520nav_comp_link%2522%2520href%253D%2522%2523%2522%253EBrandName%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar_menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav_comp_link%2522%253EProfile%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-comments%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav_comp_link%2522%253EChats%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-pen-to-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav_comp_link%2522%253EEdit%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522pic.jpeg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%2520%2520"
-            style="
-              width: 100%;
-              height: 568px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+        <ul class="nav_list">
+          <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
+          <li>
+            <a href="../Avatars/avatars.html" class="nav_item">Avatars</a>
+          </li>
+          <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
+          <li>
+            <a href="../Buttons/buttons.html" class="nav_item">Buttons</a>
+          </li>
+          <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
+          <li><a href="../Images/images.html" class="nav_item">Images</a></li>
+          <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
+          <li>
+            <a href="../Typography/typography.html" class="nav_item"
+              >Typography</a
+            >
+          </li>
+          <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
+          <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
+          <li>
+            <a href="../Navigation/navigation.html" class="nav_item active"
+              >Navigation</a
+            >
+          </li>
+          <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
+          <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
+          <li>
+            <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
+          </li>
+          <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
+        </ul>
+
+        <div class="social_icons">
+          <a class="icon" target="_blank" href="https://github.com/simran61"
+            ><i class="fab fa-github-alt"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://simran-gangwani.netlify.app/"
+            ><i class="fas fa-code"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            style="margin-bottom: 0px"
+            href="https://twitter.com/SimranGangwani3"
+            ><i class="fab fa-twitter"></i
+          ></a>
         </div>
-      </div>
+      </nav>
 
-      <!-- Fixed Navbar-->
-      <div>
-        <h2 class="component_heading">Fixed Navbar</h2>
-        <div class="component_container">
-          <div class="show_nav">
-            <div class="navbar nav_fixed">
-              <div class="nav_brand">
-                <i class="fa fa-bars hamburger_menu"></i>
-                <p class="nav_brand">BrandName</p>
-              </div>
-              <ul class="navbar_menu">
-                <li>
-                  <i class="fa-regular fa-user"></i>
-                  <span>Profile</span>
-                </li>
-                <li>
-                  <i class="fa-regular fa-comments"></i>
-                  <span>Chats</span>
-                </li>
-                <li>
-                  <i class="fa-regular fa-pen-to-square"></i>
-                  <span>Edit</span>
-                </li>
-                <li>
-                  <img
-                    src="https://i.pinimg.com/564x/a8/c3/02/a8c302bcb013813c42e713a5295c5360.jpg"
-                    alt=""
-                  />
-                </li>
-              </ul>
-            </div>
-
-            <p class="show_nav_txt">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-              quaerat tempore, quasi sunt corrupti <br />
-              vel repellat explicabo esse, mollitia eaque harum perferendis eum
-              veniam rem distinctio. Ipsa nihil possimus aliquam!
-              <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Dolore quaerat tempore, quasi sunt corrupti vel repellat <br />
-              explicabo esse, mollitia eaque harum perferendis eum veniam rem
-              distinctio. Ipsa nihil possimus aliquam!<br />Lorem, ipsum dolor
-              sit amet consectetur adipisicing elit. Dolore quaerat tempore,
-              quasi sunt corrupti vel repellat <br />
-              explicabo esse, mollitia eaque harum perferendis eum veniam rem
-              distinctio. Ipsa nihil possimus aliquam!<br />Lorem, ipsum dolor
-              sit amet consectetur adipisicing elit. Dolore quaerat tempore,
-              quasi sunt corrupti vel repellat <br />
-              explicabo esse, mollitia eaque harum perferendis eum veniam rem
-              distinctio. Ipsa nihil possimus aliquam!<br />Lorem, ipsum dolor
-              sit amet consectetur adipisicing elit. Dolore quaerat tempore,
-              quasi sunt corrupti vel repellat <br />
-              explicabo esse, mollitia eaque harum perferendis eum veniam rem
-              distinctio. Ipsa nihil possimus aliquam!
-            </p>
-          </div>
+      <div class="main">
+        <div class="primary_heading">
+          <span class="letter brand_letter">N</span>
+          <span class="letter">a</span>
+          <span class="letter">v</span>
+          <span class="letter">&nbsp;</span>
+          <span class="letter brand_letter">B</span>
+          <span class="letter">a</span>
+          <span class="letter">r</span>
         </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2520nav_fixed%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav_brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2520hamburger_menu%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522nav_brand%2522%253EBrandName%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar_menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EProfile%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa-regular%2520fa-comments%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EChats%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-pen-to-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EEdit%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522pic.jpeg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 568px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
+        <p class="component_desc">
+          The nav HTML element represents a section of a page whose purpose is
+          to provide navigation links, either within the current document or to
+          other documents.
+        </p>
 
-      <!-- Navbar with drawer -->
-      <div>
-        <h2 class="component_heading">Navbar with drawer</h2>
-        <div class="component_container">
-          <div class="show_nav">
-            <div class="navbar nav_fixed">
-              <div class="nav_brand">
-                <i class="fa fa-bars hamburger_menu_drawer"></i>
-                <p class="nav_brand">BrandName</p>
-              </div>
-              <ul class="navbar_menu">
-                <li>
-                  <i class="fa-regular fa-user"></i>
-                  <span>Profile</span>
-                </li>
-                <li>
-                  <i class="fa-regular fa-comments"></i>
-                  <span>Chats</span>
-                </li>
-                <li>
-                  <i class="fa-regular fa-pen-to-square"></i>
-                  <span>Edit</span>
-                </li>
-                <li>
-                  <img
-                    src="https://i.pinimg.com/564x/a8/c3/02/a8c302bcb013813c42e713a5295c5360.jpg"
-                    alt=""
-                  />
-                </li>
-              </ul>
-            </div>
-
-            <p class="show_nav_txt">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-              quaerat tempore, quasi sunt corrupti <br />
-              vel repellat explicabo esse, mollitia eaque harum perferendis eum
-              veniam rem distinctio. Ipsa nihil possimus aliquam!
-              <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Dolore quaerat tempore, quasi sunt corrupti vel repellat <br />
-              explicabo esse, mollitia eaque harum perferendis eum veniam rem
-              distinctio. Ipsa nihil possimus aliquam.
-            </p>
-
-            <div class="drawer_container">
-              <div class="drawer">
-                <div class="drawer_title">
-                  <h3>Drawer</h3>
-                  <h3 class="drawer_close">&times;</h3>
+        <!-- Scrollable Navbar -->
+        <div>
+          <h2 class="component_heading">Scrollable Navbar</h2>
+          <div class="component_container">
+            <div class="show_nav">
+              <div class="navbar">
+                <div class="nav_brand">
+                  <i class="fa fa-bars hamburger_menu"></i>
+                  <a class="nav_brand nav_comp_link" href="#">BrandName</a>
                 </div>
-                <div class="drawer_submenu">
-                  <a href="#">
-                    <div class="link theme_color">
-                      <i class="fa-solid fa-angle-right"></i>
-                      <span>Sub menu 1</span>
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div class="link theme_color">
-                      <i class="fa-solid fa-angle-right"></i>
-                      <span>Sub menu 2</span>
-                    </div>
-                  </a>
+                <ul class="navbar_menu">
+                  <li>
+                    <i class="fa-regular fa-user"></i>
+                    <a href="#" class="nav_comp_link">Profile</a>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i>
+                    <a href="#" class="nav_comp_link">Chats</a>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <a href="#" class="nav_comp_link">Edit</a>
+                  </li>
+                  <li>
+                    <img
+                      src="https://i.pinimg.com/564x/a8/c3/02/a8c302bcb013813c42e713a5295c5360.jpg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+              <p class="show_nav_txt">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                quaerat tempore, quasi sunt corrupti <br />
+                vel repellat explicabo esse, mollitia eaque harum perferendis
+                eum veniam rem distinctio. Ipsa nihil possimus aliquam!
+                <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore quaerat tempore, quasi sunt corrupti ve repellat <br />
+                explicabo esse, mollitia eaque harum perferendis eum veniam rem
+                distinctio. Ipsa nihil possimus aliquam!
+              </p>
+            </div>
+          </div>
+
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav_brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2520hamburger_menu%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav_brand%2520nav_comp_link%2522%2520href%253D%2522%2523%2522%253EBrandName%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar_menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav_comp_link%2522%253EProfile%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-comments%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav_comp_link%2522%253EChats%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-pen-to-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav_comp_link%2522%253EEdit%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522pic.jpeg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%2520%2520"
+              style="
+                width: 100%;
+                height: 568px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Fixed Navbar-->
+        <div>
+          <h2 class="component_heading">Fixed Navbar</h2>
+          <div class="component_container">
+            <div class="show_nav">
+              <div class="navbar nav_fixed">
+                <div class="nav_brand">
+                  <i class="fa fa-bars hamburger_menu"></i>
+                  <p class="nav_brand">BrandName</p>
+                </div>
+                <ul class="navbar_menu">
+                  <li>
+                    <i class="fa-regular fa-user"></i>
+                    <span>Profile</span>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i>
+                    <span>Chats</span>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <span>Edit</span>
+                  </li>
+                  <li>
+                    <img
+                      src="https://i.pinimg.com/564x/a8/c3/02/a8c302bcb013813c42e713a5295c5360.jpg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <p class="show_nav_txt">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                quaerat tempore, quasi sunt corrupti <br />
+                vel repellat explicabo esse, mollitia eaque harum perferendis
+                eum veniam rem distinctio. Ipsa nihil possimus aliquam!
+                <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore quaerat tempore, quasi sunt corrupti vel repellat <br />
+                explicabo esse, mollitia eaque harum perferendis eum veniam rem
+                distinctio. Ipsa nihil possimus aliquam!<br />Lorem, ipsum dolor
+                sit amet consectetur adipisicing elit. Dolore quaerat tempore,
+                quasi sunt corrupti vel repellat <br />
+                explicabo esse, mollitia eaque harum perferendis eum veniam rem
+                distinctio. Ipsa nihil possimus aliquam!<br />Lorem, ipsum dolor
+                sit amet consectetur adipisicing elit. Dolore quaerat tempore,
+                quasi sunt corrupti vel repellat <br />
+                explicabo esse, mollitia eaque harum perferendis eum veniam rem
+                distinctio. Ipsa nihil possimus aliquam!<br />Lorem, ipsum dolor
+                sit amet consectetur adipisicing elit. Dolore quaerat tempore,
+                quasi sunt corrupti vel repellat <br />
+                explicabo esse, mollitia eaque harum perferendis eum veniam rem
+                distinctio. Ipsa nihil possimus aliquam!
+              </p>
+            </div>
+          </div>
+
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2520nav_fixed%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav_brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2520hamburger_menu%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522nav_brand%2522%253EBrandName%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar_menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EProfile%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa-regular%2520fa-comments%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EChats%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-pen-to-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EEdit%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522pic.jpeg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 568px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Navbar with drawer -->
+        <div>
+          <h2 class="component_heading">Navbar with drawer</h2>
+          <div class="component_container">
+            <div class="show_nav">
+              <div class="navbar nav_fixed">
+                <div class="nav_brand">
+                  <i class="fa fa-bars hamburger_menu_drawer"></i>
+                  <p class="nav_brand">BrandName</p>
+                </div>
+                <ul class="navbar_menu">
+                  <li>
+                    <i class="fa-regular fa-user"></i>
+                    <span>Profile</span>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i>
+                    <span>Chats</span>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <span>Edit</span>
+                  </li>
+                  <li>
+                    <img
+                      src="https://i.pinimg.com/564x/a8/c3/02/a8c302bcb013813c42e713a5295c5360.jpg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <p class="show_nav_txt">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                quaerat tempore, quasi sunt corrupti <br />
+                vel repellat explicabo esse, mollitia eaque harum perferendis
+                eum veniam rem distinctio. Ipsa nihil possimus aliquam!
+                <br />Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore quaerat tempore, quasi sunt corrupti vel repellat <br />
+                explicabo esse, mollitia eaque harum perferendis eum veniam rem
+                distinctio. Ipsa nihil possimus aliquam.
+              </p>
+
+              <div class="drawer_container">
+                <div class="drawer">
+                  <div class="drawer_title">
+                    <h3>Drawer</h3>
+                    <h3 class="drawer_close">&times;</h3>
+                  </div>
+                  <div class="drawer_submenu">
+                    <a href="#">
+                      <div class="link theme_color">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span>Sub menu 1</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="link theme_color">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span>Sub menu 2</span>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2520nav_fixed%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav_brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2520hamburger_menu_drawer%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522nav_brand%2522%253EBrandName%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar_menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EProfile%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-comments%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EChats%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa-regular%2520fa-pen-to-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EEdit%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522pic.jpeg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522drawer_container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer_title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ch3%253EDrawer%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522drawer_close%2522%253E%2526times%253B%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer_submenu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522link%2520theme_color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa-solid%2520fa-angle-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253ESub%2520menu%25201%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522link%2520theme_color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-angle-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ESub%2520menu%25202%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 997px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2520nav_fixed%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav_brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2520hamburger_menu_drawer%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522nav_brand%2522%253EBrandName%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar_menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EProfile%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-comments%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EChats%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa-regular%2520fa-pen-to-square%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EEdit%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522pic.jpeg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522drawer_container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer_title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ch3%253EDrawer%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522drawer_close%2522%253E%2526times%253B%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer_submenu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522link%2520theme_color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa-solid%2520fa-angle-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253ESub%2520menu%25201%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522link%2520theme_color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-angle-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ESub%2520menu%25202%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 997px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=35px&ph=36px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cscript%2520src%253D%2522https%253A%252F%252Fdoraui.netlify.app%252Fcomponents%252FNavigation%252Fnavigation.js%2522%253E%253C%252Fscript%253E%2520%2520%2520%2520%2520"
-            style="
-              width: 100%;
-              height: 163px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=35px&ph=36px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cscript%2520src%253D%2522https%253A%252F%252Fdoraui.netlify.app%252Fcomponents%252FNavigation%252Fnavigation.js%2522%253E%253C%252Fscript%253E%2520%2520%2520%2520%2520"
+              style="
+                width: 100%;
+                height: 163px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </div>

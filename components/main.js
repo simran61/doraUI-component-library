@@ -1,17 +1,28 @@
-const humberBtn = document.querySelector(".humber-icon");
+const hamburgerIcon = document.querySelector(".humber-icon");
 const sidebar = document.querySelector(".sidebar-wrapper");
 const container = document.querySelector(".container");
 
-humberBtn.addEventListener("click", () => {
-  sidebar.classList.add("trans-on");
-  sidebar.classList.remove("trans-off");
-  //   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+hamburgerIcon.addEventListener("click", () => {
+  sidebar.classList.toggle("trans-on");
+  sidebar.classList.toggle("trans-off");
+
+  if (sidebar.classList.contains("trans-on")) {
+    hamburgerIcon.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+  } else {
+    hamburgerIcon.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+  }
 });
 
-function closeDrawer() {
-  sidebar.classList.remove("trans-on");
-  sidebar.classList.add("trans-off");
-  document.body.style.backgroundColor = "#ffffff";
+function closeMenu() {
+  if (sidebar.classList.contains("trans-on")) {
+    sidebar.classList.remove("trans-on");
+    sidebar.classList.add("trans-off");
+    hamburgerIcon.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+  }
 }
 
-container.addEventListener("click", closeDrawer);
+container.addEventListener("click", (e) => {
+  if (!sidebar.contains(e.target) && !hamburgerIcon.contains(e.target)) {
+    closeMenu();
+  }
+});

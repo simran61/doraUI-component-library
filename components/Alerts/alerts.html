@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alerts | DoraUI</title>
     <link rel="stylesheet" href="../pageNav.css" />
+    <link rel="stylesheet" href="../../sideNav.css" />
     <link rel="stylesheet" href="../component.css" />
     <link rel="icon" href="../../assets/logo.png" type="image/x-icon" />
     <link
@@ -32,255 +33,263 @@
 
     <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt="" /></a>
 
-    <nav class="sidebar-wrapper trans-off">
-      <div class="logo">
-        <a href="../../index.html"
-          ><img src="../../assets/logo.png" alt="" class="logo_img"
-        /></a>
-      </div>
-
-      <ul class="nav_list">
-        <li>
-          <a href="../Alerts/alerts.html" class="nav_item active">Alerts</a>
-        </li>
-        <li><a href="../Avatars/avatars.html" class="nav_item">Avatars</a></li>
-        <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
-        <li><a href="../Buttons/buttons.html" class="nav_item">Buttons</a></li>
-        <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
-        <li><a href="../Images/images.html" class="nav_item">Images</a></li>
-        <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
-        <li>
-          <a href="../Typography/typography.html" class="nav_item"
-            >Typography</a
-          >
-        </li>
-        <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
-        <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
-        <li>
-          <a href="../Navigation/navigation.html" class="nav_item"
-            >Navigation</a
-          >
-        </li>
-        <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
-        <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
-        <li>
-          <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
-        </li>
-        <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
-      </ul>
-
-      <div class="social_icons">
-        <a class="icon" target="_blank" href="https://github.com/simran61"
-          ><i class="fab fa-github-alt"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://simran-gangwani.netlify.app/"
-          ><i class="fas fa-code"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          style="margin-bottom: 0px"
-          href="https://twitter.com/SimranGangwani3"
-          ><i class="fab fa-twitter"></i
-        ></a>
-      </div>
-    </nav>
-
-    <div class="main">
-      <div class="primary_heading">
-        <span class="letter brand_letter">A</span>
-        <span class="letter">l</span>
-        <span class="letter">e</span>
-        <span class="letter">r</span>
-        <span class="letter">t</span>
-        <span class="letter">s</span>
-      </div>
-      <p class="component_desc">
-        Alert messages can be used to notify the user about something special.
-        The alert box takes the focus away from the current window, and forces
-        the user to read the message.
-      </p>
-
-      <!-- FILLED ALERTS STARTS-->
-      <div>
-        <h2 class="component_heading">Filled Alerts</h2>
-        <div class="component_container">
-          <div class="alert success_alert">
-            <div class="alert_icon success_al_icon">
-              <i class="fas fa-check"></i>
-            </div>
-            <div class="alert_text">
-              Nobita’s profile is successfully updated!
-            </div>
-          </div>
-          <div class="alert warning_alert">
-            <div class="alert_icon warning_al_icon">
-              <i class="fas fa-exclamation"></i>
-            </div>
-            <div class="alert_text">
-              Uh-oh, Shizuka! Your gadget bag is running low on space.
-            </div>
-          </div>
-          <div class="alert info_alert">
-            <div class="alert_icon info_al_icon">
-              <i class="fas fa-question"></i>
-            </div>
-            <div class="alert_text">
-              Doraemon has a new tool! An update is ready.
-            </div>
-          </div>
-          <div class="alert error_alert">
-            <div class="alert_icon error_al_icon">
-              <i class="fas fa-times"></i>
-            </div>
-            <div class="alert_text">Oops! Gadget malfunction, try again!</div>
-          </div>
+    <div class="container">
+      <nav class="sidebar-wrapper trans-off">
+        <div class="logo">
+          <a href="../../index.html"
+            ><img src="../../assets/logo.png" alt="" class="logo_img"
+          /></a>
         </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520success_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EProfile%2520has%2520been%2520updated%2520sucessfully%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning_alert%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520warning_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522alert_text%2522%253ELow%2520disk%2520storage%252C%2520clear%2520some%2520space.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info_alert%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520info_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-question%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EAn%2520update%2520is%2520available%2520to%2520install.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error_alert%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520error_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EThere%2520was%2520an%2520error%2520processing%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 494px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
+        <ul class="nav_list">
+          <li>
+            <a href="../Alerts/alerts.html" class="nav_item active">Alerts</a>
+          </li>
+          <li>
+            <a href="../Avatars/avatars.html" class="nav_item">Avatars</a>
+          </li>
+          <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
+          <li>
+            <a href="../Buttons/buttons.html" class="nav_item">Buttons</a>
+          </li>
+          <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
+          <li><a href="../Images/images.html" class="nav_item">Images</a></li>
+          <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
+          <li>
+            <a href="../Typography/typography.html" class="nav_item"
+              >Typography</a
+            >
+          </li>
+          <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
+          <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
+          <li>
+            <a href="../Navigation/navigation.html" class="nav_item"
+              >Navigation</a
+            >
+          </li>
+          <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
+          <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
+          <li>
+            <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
+          </li>
+          <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
+        </ul>
 
-      <!-- FILLED ALERTS WITH DESCRIPTION STARTS-->
-      <div>
-        <h2 class="component_heading">Filled Alerts with Description</h2>
-        <div class="component_container">
-          <div class="alert success_alert">
-            <div class="alert_icon success_al_icon">
-              <i class="fas fa-check"></i>
-            </div>
-            <div class="alert_text_wrapper">
-              <p class="alert_text">
+        <div class="social_icons">
+          <a class="icon" target="_blank" href="https://github.com/simran61"
+            ><i class="fab fa-github-alt"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://simran-gangwani.netlify.app/"
+            ><i class="fas fa-code"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            style="margin-bottom: 0px"
+            href="https://twitter.com/SimranGangwani3"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </nav>
+
+      <div class="main">
+        <div class="primary_heading">
+          <span class="letter brand_letter">A</span>
+          <span class="letter">l</span>
+          <span class="letter">e</span>
+          <span class="letter">r</span>
+          <span class="letter">t</span>
+          <span class="letter">s</span>
+        </div>
+        <p class="component_desc">
+          Alert messages can be used to notify the user about something special.
+          The alert box takes the focus away from the current window, and forces
+          the user to read the message.
+        </p>
+
+        <!-- FILLED ALERTS STARTS-->
+        <div>
+          <h2 class="component_heading">Filled Alerts</h2>
+          <div class="component_container">
+            <div class="alert success_alert">
+              <div class="alert_icon success_al_icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="alert_text">
                 Nobita’s profile is successfully updated!
-              </p>
-              <p class="alert_desc">
-                Nobita's details are saved securely and are now up to date.
-              </p>
+              </div>
             </div>
-          </div>
-          <div class="alert warning_alert">
-            <div class="alert_icon warning_al_icon">
-              <i class="fas fa-exclamation"></i>
+            <div class="alert warning_alert">
+              <div class="alert_icon warning_al_icon">
+                <i class="fas fa-exclamation"></i>
+              </div>
+              <div class="alert_text">
+                Uh-oh, Shizuka! Your gadget bag is running low on space.
+              </div>
             </div>
-            <div class="alert_text_wrapper">
-              <p class="alert_text">Your gadget bag is running low on space.</p>
-              <p class="alert_desc">
-                Clear some space to make room for new gadgets and files.
-              </p>
-            </div>
-          </div>
-          <div class="alert info_alert">
-            <div class="alert_icon info_al_icon">
-              <i class="fas fa-question"></i>
-            </div>
-            <div class="alert_text_wrapper">
-              <p class="alert_text">
+            <div class="alert info_alert">
+              <div class="alert_icon info_al_icon">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="alert_text">
                 Doraemon has a new tool! An update is ready.
-              </p>
-              <p class="alert_desc">
-                A new version is available, install the update for latest
-                features.
-              </p>
+              </div>
+            </div>
+            <div class="alert error_alert">
+              <div class="alert_icon error_al_icon">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="alert_text">Oops! Gadget malfunction, try again!</div>
             </div>
           </div>
-          <div class="alert error_alert">
-            <div class="alert_icon error_al_icon">
-              <i class="fas fa-times"></i>
-            </div>
-            <div class="alert_text_wrapper">
-              <p class="alert_text">Oops! Gadget malfunction, try again!</p>
-              <p class="alert_desc">
-                Something went wrong, please refresh & try again.
-              </p>
-            </div>
+
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520success_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EProfile%2520has%2520been%2520updated%2520sucessfully%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning_alert%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520warning_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522alert_text%2522%253ELow%2520disk%2520storage%252C%2520clear%2520some%2520space.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info_alert%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520info_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-question%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EAn%2520update%2520is%2520available%2520to%2520install.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error_alert%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520error_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EThere%2520was%2520an%2520error%2520processing%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 494px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
         </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success_alert%2522%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520success_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_text%2522%253ENobita%25E2%2580%2599s%2520profile%2520is%2520successfully%2520updated%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253EDetails%2520are%2520saved%2520securely%2520and%2520are%2520now%2520up%2520to%2520date.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520warning_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522alert_text%2522%253EYour%2520gadget%2520bag%2520is%2520running%2520low%2520on%2520space.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253EClear%2520some%2520space%2520for%2520new%2520gadgets%2520and%2520files.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520info_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-question%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_text%2522%253EDoraemon%2520has%2520a%2520new%2520tool%21%2520An%2520update%2520is%2520ready.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253EA%2520new%2520version%2520is%2520available%252C%2520install%2520the%2520updates.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520error_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522alert_text%2522%253EOops%21%2520Gadget%2520malfunction%252C%2520try%2520again%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253ESomething%2520went%2520wrong%252C%2520please%2520try%2520again.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 741px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
+        <!-- FILLED ALERTS WITH DESCRIPTION STARTS-->
+        <div>
+          <h2 class="component_heading">Filled Alerts with Description</h2>
+          <div class="component_container">
+            <div class="alert success_alert">
+              <div class="alert_icon success_al_icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="alert_text_wrapper">
+                <p class="alert_text">
+                  Nobita’s profile is successfully updated!
+                </p>
+                <p class="alert_desc">
+                  Nobita's details are saved securely and are now up to date.
+                </p>
+              </div>
+            </div>
+            <div class="alert warning_alert">
+              <div class="alert_icon warning_al_icon">
+                <i class="fas fa-exclamation"></i>
+              </div>
+              <div class="alert_text_wrapper">
+                <p class="alert_text">
+                  Your gadget bag is running low on space.
+                </p>
+                <p class="alert_desc">
+                  Clear some space to make room for new gadgets and files.
+                </p>
+              </div>
+            </div>
+            <div class="alert info_alert">
+              <div class="alert_icon info_al_icon">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="alert_text_wrapper">
+                <p class="alert_text">
+                  Doraemon has a new tool! An update is ready.
+                </p>
+                <p class="alert_desc">
+                  A new version is available, install the update for latest
+                  features.
+                </p>
+              </div>
+            </div>
+            <div class="alert error_alert">
+              <div class="alert_icon error_al_icon">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="alert_text_wrapper">
+                <p class="alert_text">Oops! Gadget malfunction, try again!</p>
+                <p class="alert_desc">
+                  Something went wrong, please refresh & try again.
+                </p>
+              </div>
+            </div>
+          </div>
 
-      <!-- OUTLINE ALERTS STARTS-->
-      <div>
-        <h2 class="component_heading">Outlined Alerts</h2>
-        <div class="component_container">
-          <div class="alert success_outline">
-            <div class="alert_icon success_al_icon">
-              <i class="fas fa-check"></i>
-            </div>
-            <div class="alert_text">
-              Nobita’s profile is successfully updated!
-            </div>
-          </div>
-          <div class="alert warning_outline">
-            <div class="alert_icon warning_al_icon">
-              <i class="fas fa-exclamation"></i>
-            </div>
-            <div class="alert_text">
-              Uh-oh, Shizuka! Your gadget bag is running low on space.
-            </div>
-          </div>
-          <div class="alert info_outline">
-            <div class="alert_icon info_al_icon">
-              <i class="fas fa-question"></i>
-            </div>
-            <div class="alert_text">
-              Doraemon has a new tool! An update is ready.
-            </div>
-          </div>
-          <div class="alert error_outline">
-            <div class="alert_icon error_al_icon">
-              <i class="fas fa-times"></i>
-            </div>
-            <div class="alert_text">Oops! Gadget malfunction, try again!</div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success_alert%2522%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520success_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_text%2522%253ENobita%25E2%2580%2599s%2520profile%2520is%2520successfully%2520updated%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253EDetails%2520are%2520saved%2520securely%2520and%2520are%2520now%2520up%2520to%2520date.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520warning_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522alert_text%2522%253EYour%2520gadget%2520bag%2520is%2520running%2520low%2520on%2520space.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253EClear%2520some%2520space%2520for%2520new%2520gadgets%2520and%2520files.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520info_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-question%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_text%2522%253EDoraemon%2520has%2520a%2520new%2520tool%21%2520An%2520update%2520is%2520ready.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253EA%2520new%2520version%2520is%2520available%252C%2520install%2520the%2520updates.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error_alert%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520error_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522alert_text%2522%253EOops%21%2520Gadget%2520malfunction%252C%2520try%2520again%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522alert_desc%2522%253ESomething%2520went%2520wrong%252C%2520please%2520try%2520again.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 741px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
         </div>
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success_outline%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520success_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EProfile%2520has%2520been%2520updated%2520sucessfully%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning_outline%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520warning_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522alert_text%2522%253ELow%2520disk%2520storage%252C%2520clear%2520some%2520space.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info_outline%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520info_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-question%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EAn%2520update%2520is%2520available%2520to%2520install.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error_outline%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520error_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EThere%2520was%2520an%2520error%2520processing%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 494px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+
+        <!-- OUTLINE ALERTS STARTS-->
+        <div>
+          <h2 class="component_heading">Outlined Alerts</h2>
+          <div class="component_container">
+            <div class="alert success_outline">
+              <div class="alert_icon success_al_icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="alert_text">
+                Nobita’s profile is successfully updated!
+              </div>
+            </div>
+            <div class="alert warning_outline">
+              <div class="alert_icon warning_al_icon">
+                <i class="fas fa-exclamation"></i>
+              </div>
+              <div class="alert_text">
+                Uh-oh, Shizuka! Your gadget bag is running low on space.
+              </div>
+            </div>
+            <div class="alert info_outline">
+              <div class="alert_icon info_al_icon">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="alert_text">
+                Doraemon has a new tool! An update is ready.
+              </div>
+            </div>
+            <div class="alert error_outline">
+              <div class="alert_icon error_al_icon">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="alert_text">Oops! Gadget malfunction, try again!</div>
+            </div>
+          </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success_outline%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert_icon%2520success_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EProfile%2520has%2520been%2520updated%2520sucessfully%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning_outline%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520warning_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522alert_text%2522%253ELow%2520disk%2520storage%252C%2520clear%2520some%2520space.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info_outline%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520info_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-question%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EAn%2520update%2520is%2520available%2520to%2520install.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error_outline%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_icon%2520error_al_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_text%2522%253EThere%2520was%2520an%2520error%2520processing%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 494px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inputs | DoraUI</title>
     <link rel="stylesheet" href="../pageNav.css" />
+    <link rel="stylesheet" href="../../sideNav.css" />
     <link rel="stylesheet" href="../component.css" />
     <link rel="icon" href="../../assets/logo.png" type="image/x-icon" />
     <link
@@ -32,291 +33,301 @@
 
     <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt="" /></a>
 
-    <nav class="sidebar-wrapper trans-off">
-      <div class="logo">
-        <a href="../../index.html"
-          ><img src="../../assets/logo.png" alt="" class="logo_img"
-        /></a>
-      </div>
-
-      <ul class="nav_list">
-        <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
-        <li><a href="../Avatars/avatars.html" class="nav_item">Avatars</a></li>
-        <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
-        <li><a href="../Buttons/buttons.html" class="nav_item">Buttons</a></li>
-        <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
-        <li><a href="../Images/images.html" class="nav_item">Images</a></li>
-        <li>
-          <a href="../Inputs/inputs.html" class="nav_item active">Inputs</a>
-        </li>
-        <li>
-          <a href="../Typography/typography.html" class="nav_item"
-            >Typography</a
-          >
-        </li>
-        <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
-        <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
-        <li>
-          <a href="../Navigation/navigation.html" class="nav_item"
-            >Navigation</a
-          >
-        </li>
-        <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
-        <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
-        <li>
-          <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
-        </li>
-        <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
-      </ul>
-
-      <div class="social_icons">
-        <a class="icon" target="_blank" href="https://github.com/simran61"
-          ><i class="fab fa-github-alt"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://simran-gangwani.netlify.app/"
-          ><i class="fas fa-code"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          style="margin-bottom: 0px"
-          href="https://twitter.com/SimranGangwani3"
-          ><i class="fab fa-twitter"></i
-        ></a>
-      </div>
-    </nav>
-
-    <div class="main">
-      <div class="primary_heading">
-        <span class="letter brand_letter">I</span>
-        <span class="letter">n</span>
-        <span class="letter">p</span>
-        <span class="letter">u</span>
-        <span class="letter">t</span>
-        <span class="letter">s</span>
-      </div>
-      <p class="component_desc">
-        The input tag specifies an input field where the user can enter data.
-        The input element is the most important form element.
-      </p>
-
-      <!-- Input Field -->
-      <div>
-        <h2 class="component_heading">Input Field</h2>
-        <div class="component_container">
-          <div class="input_box_div" id="textField">
-            <div class="input_txt">
-              <label for="name" class="input_label">Full name</label>
-            </div>
-            <input class="input_box" type="text" />
-          </div>
-
-          <div class="input_box_div disabled" id="textField">
-            <div class="input_txt">
-              <label for="name" class="input_label">Disabled Field</label>
-            </div>
-            <input class="input_box" type="text" disabled />
-          </div>
-        </div>
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input_box_div%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EFull%2520name%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input_box_div%2520disabled%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2509%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EDisabled%2520Field%253C%252Flabel%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%2520disabled%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 382px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
-
-      <!-- Input Field State Response -->
-      <div>
-        <h2 class="component_heading">Input Field State Response</h2>
-        <div class="component_container">
-          <div class="input_box_div error_input" id="textField">
-            <div class="input_txt_msg">
-              <label for="name" class="input_label error_txt">Username</label>
-              <span class="input_label error_txt">Incorrect Username</span>
-            </div>
-            <input class="input_box" type="text" />
-          </div>
-
-          <div class="input_box_div success_input" id="textField">
-            <div class="input_txt_msg">
-              <label for="name" class="input_label success_txt">Password</label>
-              <span class="input_label success_txt">Strong Password</span>
-            </div>
-            <input class="input_box" type="password" />
-          </div>
+    <div class="container">
+      <nav class="sidebar-wrapper trans-off">
+        <div class="logo">
+          <a href="../../index.html"
+            ><img src="../../assets/logo.png" alt="" class="logo_img"
+          /></a>
         </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input_box_div%2520error_input%2522%2520id%253D%2522textField%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522input_txt_msg%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2520error_txt%2522%253EUsername%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522input_label%2520error_txt%2522%253EIncorrect%2520Username%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input_box_div%2520success_input%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt_msg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2520success_txt%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522input_label%2520success_txt%2522%253EStrong%2520Password%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522password%2522%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 419px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
-
-      <!-- Radio Buttons -->
-      <div>
-        <h2 class="component_heading">Radio Buttons</h2>
-        <div class="component_container">
-          <label class="radio">
-            <input type="radio" value="Mens" name="cloths" /><span
-              class="radio_text"
-              >Womens Wear</span
+        <ul class="nav_list">
+          <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
+          <li>
+            <a href="../Avatars/avatars.html" class="nav_item">Avatars</a>
+          </li>
+          <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
+          <li>
+            <a href="../Buttons/buttons.html" class="nav_item">Buttons</a>
+          </li>
+          <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
+          <li><a href="../Images/images.html" class="nav_item">Images</a></li>
+          <li>
+            <a href="../Inputs/inputs.html" class="nav_item active">Inputs</a>
+          </li>
+          <li>
+            <a href="../Typography/typography.html" class="nav_item"
+              >Typography</a
             >
-          </label>
-
-          <label class="radio">
-            <input type="radio" value="Mens" name="cloths" /><span
-              class="radio_text"
-              >Mens Wear</span
+          </li>
+          <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
+          <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
+          <li>
+            <a href="../Navigation/navigation.html" class="nav_item"
+              >Navigation</a
             >
-          </label>
+          </li>
+          <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
+          <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
+          <li>
+            <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
+          </li>
+          <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
+        </ul>
 
-          <label class="radio">
-            <input type="radio" value="Kids" name="cloths" /><span
-              class="radio_text"
-              >Kids Wear</span
-            >
-          </label>
-
-          <label class="radio">
-            <input type="radio" value="Unisex" name="cloths" /><span
-              class="radio_text"
-              >Unisex Wear</span
-            >
-          </label>
+        <div class="social_icons">
+          <a class="icon" target="_blank" href="https://github.com/simran61"
+            ><i class="fab fa-github-alt"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://simran-gangwani.netlify.app/"
+            ><i class="fas fa-code"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            style="margin-bottom: 0px"
+            href="https://twitter.com/SimranGangwani3"
+            ><i class="fab fa-twitter"></i
+          ></a>
         </div>
+      </nav>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Womens%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EWomens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Mens%2522%2520name%253D%2522coths%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EMens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Kids%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EKids%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Unisex%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EUnisex%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E"
-            style="
-              width: 100%;
-              height: 494px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+      <div class="main">
+        <div class="primary_heading">
+          <span class="letter brand_letter">I</span>
+          <span class="letter">n</span>
+          <span class="letter">p</span>
+          <span class="letter">u</span>
+          <span class="letter">t</span>
+          <span class="letter">s</span>
         </div>
-      </div>
+        <p class="component_desc">
+          The input tag specifies an input field where the user can enter data.
+          The input element is the most important form element.
+        </p>
 
-      <!-- Checkbox -->
-      <div>
-        <h2 class="component_heading">Checkbox</h2>
-        <div class="component_container">
-          <label class="checkbox">
-            <input type="checkbox" name="" value="Womens Wear" />
-            <span class="chechbox_text">Womens Wear</span>
-          </label>
-
-          <label class="checkbox">
-            <input type="checkbox" name="" value="Mens Wear" />
-            <span class="chechbox_text">Mens Wear</span>
-          </label>
-
-          <label class="checkbox">
-            <input type="checkbox" name="" value="Kids Wear" />
-            <span class="chechbox_text">Kids Wear</span>
-          </label>
-
-          <label class="checkbox">
-            <input type="checkbox" name="" value="Unisex Wear" />
-            <span class="chechbox_text">Unisex Wear</span>
-          </label>
-        </div>
-
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Womens%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EWomens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Mens%2520Wear%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EMens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Kids%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EKids%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Unisex%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EUnisex%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E"
-            style="
-              width: 100%;
-              height: 494px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
-
-      <!-- Basic Form Example -->
-      <div>
-        <h2 class="component_heading">Basic Form Example</h2>
-        <div class="component_container show_flex justify_evenly">
-          <div class="form">
-            <h1 class="form_heading">Login Form</h1>
-            <div class="input_box_div form_input grey_bg" id="textField">
+        <!-- Input Field -->
+        <div>
+          <h2 class="component_heading">Input Field</h2>
+          <div class="component_container">
+            <div class="input_box_div" id="textField">
               <div class="input_txt">
-                <label for="name" class="input_label">Enter your name:</label>
+                <label for="name" class="input_label">Full name</label>
               </div>
               <input class="input_box" type="text" />
             </div>
 
-            <div class="input_box_div form_input grey_bg" id="textField">
+            <div class="input_box_div disabled" id="textField">
               <div class="input_txt">
-                <label for="name" class="input_label">Enter your email:</label>
+                <label for="name" class="input_label">Disabled Field</label>
               </div>
-              <input class="input_box" type="email" />
+              <input class="input_box" type="text" disabled />
             </div>
-            <div class="credentials_options">
-              <label>
-                <input type="checkbox" name="" value="Womens Wear" />
-                <span class="chechbox_text">Remember Me</span>
-              </label>
-              <a href="#" class="forgot_link">Forgot Password ?</a>
-            </div>
-            <button class="btn btn_primary btn_rounded btn_center">
-              <a href="https://simran-gangwani.netlify.app/">Login Now</a>
-            </button>
-            <a class="form_link" href="#"
-              >Create new account <i class="fa-solid fa-chevron-right"></i
-            ></a>
+          </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input_box_div%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EFull%2520name%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input_box_div%2520disabled%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2509%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EDisabled%2520Field%253C%252Flabel%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%2520disabled%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 382px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
         </div>
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522form_heading%2522%253ELogin%2520Form%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_box_div%2520form_input%2520grey_bg%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EEnter%2520your%2520name%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_box_div%2520form_input%2520grey_bg%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EEnter%2520your%2520email%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522email%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522credentials_options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Womens%2520Wear%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253ERemember%2520Me%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522forgot_link%2522%253EForgot%2520Password%253F%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_rounded%2520btn_center%2522%253E%253Ca%2520href%253D%2522%2522%253ELogin%2520Now%253C%252Fa%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522block%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522black_color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Create%2520new%2520account%2520%253Ci%2520class%253D%2522fa-solid%2520fa-chevron-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-            style="
-              width: 100%;
-              height: 699px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+
+        <!-- Input Field State Response -->
+        <div>
+          <h2 class="component_heading">Input Field State Response</h2>
+          <div class="component_container">
+            <div class="input_box_div error_input" id="textField">
+              <div class="input_txt_msg">
+                <label for="name" class="input_label error_txt">Username</label>
+                <span class="input_label error_txt">Incorrect Username</span>
+              </div>
+              <input class="input_box" type="text" />
+            </div>
+
+            <div class="input_box_div success_input" id="textField">
+              <div class="input_txt_msg">
+                <label for="name" class="input_label success_txt"
+                  >Password</label
+                >
+                <span class="input_label success_txt">Strong Password</span>
+              </div>
+              <input class="input_box" type="password" />
+            </div>
+          </div>
+
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input_box_div%2520error_input%2522%2520id%253D%2522textField%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cdiv%2520class%253D%2522input_txt_msg%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2520error_txt%2522%253EUsername%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522input_label%2520error_txt%2522%253EIncorrect%2520Username%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input_box_div%2520success_input%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt_msg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2520success_txt%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522input_label%2520success_txt%2522%253EStrong%2520Password%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522password%2522%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 419px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Radio Buttons -->
+        <div>
+          <h2 class="component_heading">Radio Buttons</h2>
+          <div class="component_container">
+            <label class="radio">
+              <input type="radio" value="Mens" name="cloths" /><span
+                class="radio_text"
+                >Womens Wear</span
+              >
+            </label>
+
+            <label class="radio">
+              <input type="radio" value="Mens" name="cloths" /><span
+                class="radio_text"
+                >Mens Wear</span
+              >
+            </label>
+
+            <label class="radio">
+              <input type="radio" value="Kids" name="cloths" /><span
+                class="radio_text"
+                >Kids Wear</span
+              >
+            </label>
+
+            <label class="radio">
+              <input type="radio" value="Unisex" name="cloths" /><span
+                class="radio_text"
+                >Unisex Wear</span
+              >
+            </label>
+          </div>
+
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Womens%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EWomens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Mens%2522%2520name%253D%2522coths%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EMens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Kids%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EKids%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522radio%2522%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Unisex%2522%2520name%253D%2522coths%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522radio_text%2522%253EUnisex%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E"
+              style="
+                width: 100%;
+                height: 494px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Checkbox -->
+        <div>
+          <h2 class="component_heading">Checkbox</h2>
+          <div class="component_container">
+            <label class="checkbox">
+              <input type="checkbox" name="" value="Womens Wear" />
+              <span class="chechbox_text">Womens Wear</span>
+            </label>
+
+            <label class="checkbox">
+              <input type="checkbox" name="" value="Mens Wear" />
+              <span class="chechbox_text">Mens Wear</span>
+            </label>
+
+            <label class="checkbox">
+              <input type="checkbox" name="" value="Kids Wear" />
+              <span class="chechbox_text">Kids Wear</span>
+            </label>
+
+            <label class="checkbox">
+              <input type="checkbox" name="" value="Unisex Wear" />
+              <span class="chechbox_text">Unisex Wear</span>
+            </label>
+          </div>
+
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Womens%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EWomens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Mens%2520Wear%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EMens%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Kids%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EKids%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Unisex%2520Wear%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253EUnisex%2520Wear%253C%252Fspan%253E%250A%253C%252Flabel%253E"
+              style="
+                width: 100%;
+                height: 494px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Basic Form Example -->
+        <div>
+          <h2 class="component_heading">Basic Form Example</h2>
+          <div class="component_container show_flex justify_evenly">
+            <div class="form">
+              <h1 class="form_heading">Login Form</h1>
+              <div class="input_box_div form_input grey_bg" id="textField">
+                <div class="input_txt">
+                  <label for="name" class="input_label">Enter your name:</label>
+                </div>
+                <input class="input_box" type="text" />
+              </div>
+
+              <div class="input_box_div form_input grey_bg" id="textField">
+                <div class="input_txt">
+                  <label for="name" class="input_label"
+                    >Enter your email:</label
+                  >
+                </div>
+                <input class="input_box" type="email" />
+              </div>
+              <div class="credentials_options">
+                <label>
+                  <input type="checkbox" name="" value="Womens Wear" />
+                  <span class="chechbox_text">Remember Me</span>
+                </label>
+                <a href="#" class="forgot_link">Forgot Password ?</a>
+              </div>
+              <button class="btn btn_primary btn_rounded btn_center">
+                <a href="https://simran-gangwani.netlify.app/">Login Now</a>
+              </button>
+              <a class="form_link" href="#"
+                >Create new account <i class="fa-solid fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522form_heading%2522%253ELogin%2520Form%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_box_div%2520form_input%2520grey_bg%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EEnter%2520your%2520name%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_box_div%2520form_input%2520grey_bg%2522%2520id%253D%2522textField%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_txt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%2520class%253D%2522input_label%2522%253EEnter%2520your%2520email%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_box%2522%2520type%253D%2522email%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522credentials_options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520value%253D%2522Womens%2520Wear%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522chechbox_text%2522%253ERemember%2520Me%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522forgot_link%2522%253EForgot%2520Password%253F%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_rounded%2520btn_center%2522%253E%253Ca%2520href%253D%2522%2522%253ELogin%2520Now%253C%252Fa%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522block%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522black_color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Create%2520new%2520account%2520%253Ci%2520class%253D%2522fa-solid%2520fa-chevron-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+              style="
+                width: 100%;
+                height: 699px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </div>

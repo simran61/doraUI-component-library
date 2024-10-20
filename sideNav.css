@@ -1,0 +1,137 @@
+nav {
+  background-color: var(--dark-nav-color);
+  width: 220px;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav_list > li {
+  padding: 1rem 0 0 2rem;
+}
+
+.nav_item {
+  font-weight: 500;
+  color: var(--tagline-color);
+}
+
+.nav_item:hover,
+.icon:hover,
+.active {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.nav_item:hover {
+  margin-left: 0.5rem;
+  transition: 0.3s all ease-in;
+  font-weight: 700;
+}
+
+.logo {
+  text-align: center;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.logo img {
+  width: 101px;
+  height: 85px;
+}
+
+.social_icons {
+  text-align: center;
+  margin: 1rem 0 0.7rem 0;
+}
+
+.icon {
+  color: var(--tagline-color);
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.modeIcon {
+  position: fixed;
+  z-index: 50;
+  height: 35px;
+  right: 5rem;
+  top: 2rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+/* responsive menu */
+.navigation-bar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--black);
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border-color);
+  z-index: 2;
+}
+
+.navigation-bar > .logo > a > img {
+  height: 50px;
+  width: auto;
+}
+
+.navigation-bar > .logo {
+  padding: 0;
+}
+
+.humber-icon > i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .modeIcon {
+    height: 25px;
+    top: 1.2rem;
+  }
+
+  .trans-on {
+    left: 0;
+    transition: left 0.5s ease-out;
+  }
+
+  .trans-off {
+    left: -260px;
+    transition: left 0.5s ease-out;
+  }
+
+  .sidebar-wrapper {
+    z-index: 5;
+  }
+
+  .sidebar-main {
+    font-size: 1.2rem;
+  }
+
+  .main {
+    margin-top: 3.75rem;
+    padding: 2rem;
+    padding-left: 2rem;
+    width: 100%;
+  }
+
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 2rem;
+    background-color: var(--body-bg);
+  }
+
+  nav {
+    z-index: 100000000;
+  }
+}

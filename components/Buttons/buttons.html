@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buttons | DoraUI</title>
     <link rel="stylesheet" href="../pageNav.css" />
+    <link rel="stylesheet" href="../../sideNav.css" />
     <link rel="stylesheet" href="../component.css" />
     <link rel="icon" href="../../assets/logo.png" type="image/x-icon" />
     <link
@@ -32,220 +33,226 @@
 
     <a href="#"><img class="modeIcon" src="../../assets/moon.svg" alt="" /></a>
 
-    <nav class="sidebar-wrapper trans-off">
-      <div class="logo">
-        <a href="../../index.html"
-          ><img src="../../assets/logo.png" alt="" class="logo_img"
-        /></a>
-      </div>
-
-      <ul class="nav_list">
-        <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
-        <li><a href="../Avatars/avatars.html" class="nav_item">Avatars</a></li>
-        <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
-        <li>
-          <a href="../Buttons/buttons.html" class="nav_item active">Buttons</a>
-        </li>
-        <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
-        <li><a href="../Images/images.html" class="nav_item">Images</a></li>
-        <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
-        <li>
-          <a href="../Typography/typography.html" class="nav_item"
-            >Typography</a
-          >
-        </li>
-        <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
-        <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
-        <li>
-          <a href="../Navigation/navigation.html" class="nav_item"
-            >Navigation</a
-          >
-        </li>
-        <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
-        <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
-        <li>
-          <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
-        </li>
-        <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
-      </ul>
-
-      <div class="social_icons">
-        <a class="icon" target="_blank" href="https://github.com/simran61"
-          ><i class="fab fa-github-alt"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          href="https://simran-gangwani.netlify.app/"
-          ><i class="fas fa-code"></i
-        ></a>
-        <a
-          class="icon"
-          target="_blank"
-          style="margin-bottom: 0px"
-          href="https://twitter.com/SimranGangwani3"
-          ><i class="fab fa-twitter"></i
-        ></a>
-      </div>
-    </nav>
-
-    <div class="main">
-      <div class="primary_heading">
-        <span class="letter brand_letter">B</span>
-        <span class="letter">u</span>
-        <span class="letter">t</span>
-        <span class="letter">t</span>
-        <span class="letter">o</span>
-        <span class="letter">n</span>
-        <span class="letter">s</span>
-      </div>
-      <p class="component_desc">
-        Using Buttons we can perform some actions. Buttons are also used to
-        submit forms. We have variety of buttons in our library just add proper
-        classes and your are ready to go.
-      </p>
-
-      <!-- DEFAULT BUTTON STARTS-->
-      <div>
-        <h2 class="component_heading">Default Buttons</h2>
-        <div class="component_container">
-          <button class="btn btn_primary">Primary Button</button>
-          <button class="btn btn_danger">Danger Button</button>
-          <button class="btn btn_warning">Warning Button</button>
-          <button class="btn btn_success">Success Button</button>
-          <button class="btn btn_dark">Dark Button</button>
+    <div class="container">
+      <nav class="sidebar-wrapper trans-off">
+        <div class="logo">
+          <a href="../../index.html"
+            ><img src="../../assets/logo.png" alt="" class="logo_img"
+          /></a>
         </div>
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_danger%2522%253EDanger%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_warning%2522%253EWarning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_success%2522%253ESuccess%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn_dark%2522%253EDark%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-            style="
-              width: 100%;
-              height: 233px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
 
-      <!-- BUTTON SIZES STARTS-->
-      <div>
-        <h2 class="component_heading">Button Sizes</h2>
-        <div class="component_container">
-          <button class="btn btn_primary btn_xsm">X-Small Button</button>
-          <button class="btn btn_primary btn_sm">Small Button</button>
-          <button class="btn btn_primary">Medium Button</button>
-          <button class="btn btn_primary btn_lg">Large Button</button>
-        </div>
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_xsm%2522%253EX-Small%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_sm%2522%253ESmall%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2522%253EMedium%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_lg%2522%253ELarge%2520Button%253C%252Fbutton%253E"
-            style="
-              width: 100%;
-              height: 215px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
-
-      <!-- VARIATION BUTTONS STARTS-->
-      <div>
-        <h2 class="component_heading">Variation Buttons</h2>
-        <div class="component_container">
-          <button class="btn btn_secondary">Secondary Button</button>
-          <button class="btn_primary btn">
-            <a href="https://simran-gangwani.netlify.app/" target="_blank"
-              >Link Button</a
+        <ul class="nav_list">
+          <li><a href="../Alerts/alerts.html" class="nav_item">Alerts</a></li>
+          <li>
+            <a href="../Avatars/avatars.html" class="nav_item">Avatars</a>
+          </li>
+          <li><a href="../Badges/badges.html" class="nav_item">Badges</a></li>
+          <li>
+            <a href="../Buttons/buttons.html" class="nav_item active"
+              >Buttons</a
             >
-          </button>
-          <button class="btn btn_primary btn_rounded">Rounded Button</button>
-          <button class="btn btn_outline">Outline Button</button>
-          <button class="btn btn_light_out">Ghost Button</button>
-        </div>
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_secondary%2522%253ESecondary%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522btn_primary%2520btn%2522%253E%250A%2509%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%2520target%253D%2522_blank%2522%253ELink%2520Button%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_rounded%2522%253ERounded%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_light_out%2522%253EGhost%2520Button%253C%252Fbutton%253E"
-            style="
-              width: 100%;
-              height: 270px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
+          </li>
+          <li><a href="../Cards/cards.html" class="nav_item">Cards</a></li>
+          <li><a href="../Images/images.html" class="nav_item">Images</a></li>
+          <li><a href="../Inputs/inputs.html" class="nav_item">Inputs</a></li>
+          <li>
+            <a href="../Typography/typography.html" class="nav_item"
+              >Typography</a
+            >
+          </li>
+          <li><a href="../Lists/lists.html" class="nav_item">Lists</a></li>
+          <li><a href="../Modal/modal.html" class="nav_item">Modal</a></li>
+          <li>
+            <a href="../Navigation/navigation.html" class="nav_item"
+              >Navigation</a
+            >
+          </li>
+          <li><a href="../Rating/rating.html" class="nav_item">Rating</a></li>
+          <li><a href="../Toasts/toasts.html" class="nav_item">Toasts</a></li>
+          <li>
+            <a href="../Grid/grid.html" class="nav_item">Simplified Grid</a>
+          </li>
+          <li><a href="../Slider/slider.html" class="nav_item">Slider</a></li>
+        </ul>
 
-      <!-- ICON BUTTON STARTS-->
-      <div>
-        <h2 class="component_heading">Icon Buttons</h2>
-        <div class="component_container">
-          <button class="btn btn_primary icon_btn">
-            <span class="btn_icon"><i class="fas fa-shopping-cart"></i></span>
-            <span>Add To Cart</span>
-          </button>
-          <button class="btn btn_primary icon_btn">
-            <span class="btn_icon"><i class="fas fa-heart"></i></span>
-            <span>Add To Wishlist</span>
-          </button>
+        <div class="social_icons">
+          <a class="icon" target="_blank" href="https://github.com/simran61"
+            ><i class="fab fa-github-alt"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            href="https://simran-gangwani.netlify.app/"
+            ><i class="fas fa-code"></i
+          ></a>
+          <a
+            class="icon"
+            target="_blank"
+            style="margin-bottom: 0px"
+            href="https://twitter.com/SimranGangwani3"
+            ><i class="fab fa-twitter"></i
+          ></a>
         </div>
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520icon_btn%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%253EAdd%2520To%2520Cart%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520icon_btn%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%253E%2520Add%2520To%2520Wishlist%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
-            style="
-              width: 100%;
-              height: 289px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-      </div>
+      </nav>
 
-      <!-- FLOATING BUTTON STARTS-->
-      <div>
-        <h2 class="component_heading">Floating Buttons</h2>
-        <div class="component_container">
-          <button class="btn btn_float">
-            <i class="fas fa-plus"></i>
-          </button>
-          <button class="btn btn_float">
-            <i class="fas fa-arrow-up"></i>
-          </button>
+      <div class="main">
+        <div class="primary_heading">
+          <span class="letter brand_letter">B</span>
+          <span class="letter">u</span>
+          <span class="letter">t</span>
+          <span class="letter">t</span>
+          <span class="letter">o</span>
+          <span class="letter">n</span>
+          <span class="letter">s</span>
+        </div>
+        <p class="component_desc">
+          Using Buttons we can perform some actions. Buttons are also used to
+          submit forms. We have variety of buttons in our library just add
+          proper classes and your are ready to go.
+        </p>
+
+        <!-- DEFAULT BUTTON STARTS-->
+        <div>
+          <h2 class="component_heading">Default Buttons</h2>
+          <div class="component_container">
+            <button class="btn btn_primary">Primary Button</button>
+            <button class="btn btn_danger">Danger Button</button>
+            <button class="btn btn_warning">Warning Button</button>
+            <button class="btn btn_success">Success Button</button>
+            <button class="btn btn_dark">Dark Button</button>
+          </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_danger%2522%253EDanger%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_warning%2522%253EWarning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_success%2522%253ESuccess%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn_dark%2522%253EDark%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+              style="
+                width: 100%;
+                height: 233px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
 
-        <div class="code_wrapper">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520float_btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520float_btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-            style="
-              width: 100%;
-              height: 177px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+        <!-- BUTTON SIZES STARTS-->
+        <div>
+          <h2 class="component_heading">Button Sizes</h2>
+          <div class="component_container">
+            <button class="btn btn_primary btn_xsm">X-Small Button</button>
+            <button class="btn btn_primary btn_sm">Small Button</button>
+            <button class="btn btn_primary">Medium Button</button>
+            <button class="btn btn_primary btn_lg">Large Button</button>
+          </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_xsm%2522%253EX-Small%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_sm%2522%253ESmall%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2522%253EMedium%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_lg%2522%253ELarge%2520Button%253C%252Fbutton%253E"
+              style="
+                width: 100%;
+                height: 215px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- VARIATION BUTTONS STARTS-->
+        <div>
+          <h2 class="component_heading">Variation Buttons</h2>
+          <div class="component_container">
+            <button class="btn btn_secondary">Secondary Button</button>
+            <button class="btn_primary btn">
+              <a href="https://simran-gangwani.netlify.app/" target="_blank"
+                >Link Button</a
+              >
+            </button>
+            <button class="btn btn_primary btn_rounded">Rounded Button</button>
+            <button class="btn btn_outline">Outline Button</button>
+            <button class="btn btn_light_out">Ghost Button</button>
+          </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_secondary%2522%253ESecondary%2520Button%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522btn_primary%2520btn%2522%253E%250A%2509%253Ca%2520href%253D%2522https%253A%252F%252Fgoogle.com%2522%2520target%253D%2522_blank%2522%253ELink%2520Button%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520btn_rounded%2522%253ERounded%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_outline%2522%253EOutline%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_light_out%2522%253EGhost%2520Button%253C%252Fbutton%253E"
+              style="
+                width: 100%;
+                height: 270px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- ICON BUTTON STARTS-->
+        <div>
+          <h2 class="component_heading">Icon Buttons</h2>
+          <div class="component_container">
+            <button class="btn btn_primary icon_btn">
+              <span class="btn_icon"><i class="fas fa-shopping-cart"></i></span>
+              <span>Add To Cart</span>
+            </button>
+            <button class="btn btn_primary icon_btn">
+              <span class="btn_icon"><i class="fas fa-heart"></i></span>
+              <span>Add To Wishlist</span>
+            </button>
+          </div>
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520icon_btn%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%253EAdd%2520To%2520Cart%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520icon_btn%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn_icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%253E%2520Add%2520To%2520Wishlist%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+              style="
+                width: 100%;
+                height: 289px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <!-- FLOATING BUTTON STARTS-->
+        <div>
+          <h2 class="component_heading">Floating Buttons</h2>
+          <div class="component_container">
+            <button class="btn btn_float">
+              <i class="fas fa-plus"></i>
+            </button>
+            <button class="btn btn_float">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+
+          <div class="code_wrapper">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=37px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520float_btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn_primary%2520float_btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+              style="
+                width: 100%;
+                height: 177px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
