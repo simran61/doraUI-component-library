@@ -11,6 +11,7 @@
   --component-bg: rgb(30, 30, 30);
   --alert-color: rgb(165, 163, 163);
   --disabled: rgb(67, 67, 67);
+  --comp-primary-bg: #172739;
 
   --nav-item-color: rgb(121, 120, 120);
   --tagline-color: rgb(179, 177, 177);
@@ -69,4 +70,6 @@
 
   /* --white-color: rgb(24, 24, 24); */
   --border-color: #e0dfde;
+
+  --comp-primary-bg: #8fafd2;
 }
