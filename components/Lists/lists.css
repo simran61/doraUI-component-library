@@ -3,15 +3,6 @@ ol > li {
   color: var(--white-color);
 }
 
-.ol_list_style {
-  margin: 1rem;
-  color: var(--black-color);
-}
-
-.list_style {
-  color: var(--black-color);
-}
-
 .customized_list {
   width: 80%;
   background-color: var(--component-bg);
@@ -36,6 +27,10 @@ ol > li {
   justify-content: space-between;
 }
 
+.list_container ul li {
+  margin: 0.4rem 0;
+}
+
 .stacked_list_para {
   opacity: 80%;
   margin: 0.6rem 0;
@@ -49,4 +44,69 @@ ol > li {
   transition: 0.2s;
   background-color: var(--primary-color);
   color: var(--white-color);
+}
+
+.list_container {
+  margin: 1.2rem 0;
+}
+
+.list_container ul,
+.list_container ol {
+  margin-left: 20px;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-circle {
+  list-style-type: circle;
+}
+
+.list-square {
+  list-style-type: square;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.list-decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+.list-lower-roman {
+  list-style-type: lower-roman;
+}
+
+.list-upper-roman {
+  list-style-type: upper-roman;
+}
+
+.list-lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.list-upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.list-lower-greek {
+  list-style-type: lower-greek;
+}
+
+.list-armenian {
+  list-style-type: armenian;
+}
+
+.list-georgian {
+  list-style-type: georgian;
+}
+
+.list-img-none {
+  list-style-image: none;
 }

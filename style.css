@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: 0.1s all ease-in;
 }
 
 body {
@@ -51,6 +52,11 @@ nav {
 .icon:hover {
   color: var(--primary-color);
   cursor: pointer;
+}
+
+.nav_item:hover {
+  margin-left: 0.5rem;
+  transition: 0.3s all ease-in;
 }
 
 .social_icons {
