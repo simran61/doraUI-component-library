@@ -20,7 +20,8 @@
   color: white;
 }
 
-.btn_primary:hover {
+.btn_primary:hover,
+.btn_float:hover {
   background-color: var(--scrollbar-color);
 }
 
@@ -121,11 +122,11 @@
   margin-right: 0.3rem;
 }
 
-.float_btn {
+.btn_float {
   border-radius: 100%;
-  font-size: 1.5rem;
-  height: 48px;
-  width: 48px;
+  height: 44px;
+  width: 44px;
+  background-color: var(--primary-color);
 }
 
 @media screen and (max-width: 950px) {

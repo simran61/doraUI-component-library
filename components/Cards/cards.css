@@ -380,3 +380,9 @@
   object-fit: cover;
   width: 11rem;
 }
+
+@media screen and (max-width: 950px) {
+  .card {
+    margin: 1rem 0;
+  }
+}

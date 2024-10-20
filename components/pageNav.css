@@ -363,11 +363,24 @@ tbody tr:hover {
   nav {
     z-index: 100000000;
   }
+
+  /* components hidden */
+
+  .hide-md {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .hide-sm {
+    display: none;
+  }
 }
 
 /* code snippet */
 .code_wrapper {
   width: 80%;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1250px) {
