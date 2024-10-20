@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simran | Component Library</title>
+    <link rel="stylesheet" href="./components/pageNav.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
     <link
@@ -17,28 +18,44 @@
   </head>
 
   <body>
-    <a href="#"><img class="modeIcon" src="../assets/moon.svg" alt /></a>
-
-    <nav>
+    <div class="navigation-bar">
       <div class="logo">
-        <img src="assets/logo.png" alt class="logo_img" />
+        <a href="../../index.html">
+          <img src="../../assets/logo-res-bg.png" alt="" class="logo_img" />
+        </a>
       </div>
 
-      <ul class="nav_list">
-        <li><a class="nav_item" href="#header">Home</a></li>
-        <li><a class="nav_item" href="#features">Features</a></li>
-        <li><a class="nav_item" href="#installation">Installation</a></li>
-        <li>
-          <a class="nav_item" href="./components/Alerts/alerts.html"
-            >Documentation</a
-          >
-        </li>
-        <li>
-          <a class="nav_item" href="https://github.com/simran61/doraUI-post10th"
-            >GitHub</a
-          >
-        </li>
-      </ul>
+      <div class="humber-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <a href="#"><img class="modeIcon" src="../assets/moon.svg" alt /></a>
+
+    <nav class="sidebar-wrapper trans-off">
+      <div>
+        <div class="logo">
+          <img src="assets/logo.png" alt class="logo_img" />
+        </div>
+
+        <ul style="margin-top: 2rem" class="nav_list">
+          <li><a class="nav_item" href="#header">Home</a></li>
+          <li><a class="nav_item" href="#features">Features</a></li>
+          <li><a class="nav_item" href="#installation">Installation</a></li>
+          <li>
+            <a class="nav_item" href="./components/Alerts/alerts.html"
+              >Documentation</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav_item"
+              href="https://github.com/simran61/doraUI-post10th"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </div>
 
       <div class="social_icons">
         <a class="icon" target="_blank" href="https://github.com/simran61"
@@ -276,6 +293,7 @@
       </div>
     </div>
 
+    <script src="./components/main.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
