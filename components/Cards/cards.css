@@ -8,6 +8,10 @@
   margin: 1rem;
 }
 
+img {
+  object-fit: cover;
+}
+
 .card_badge {
   position: relative;
 }
@@ -74,7 +78,7 @@
   position: absolute;
   top: 1.5rem;
   left: 0;
-  background-color: var(--error-dark);
+  background-color: var(--secondary-color);
   padding: 0.2rem 1rem;
   color: white;
   font-weight: 600;
@@ -234,7 +238,6 @@
 }
 
 .card_horizontal {
-  width: 25rem;
   width: 26rem;
 }
 
@@ -384,5 +387,59 @@
 @media screen and (max-width: 950px) {
   .card {
     margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hide-sm {
+    display: none;
+  }
+
+  .card_horizontal {
+    width: 20rem;
+  }
+
+  .card_links {
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  .card_horizontal_ecom_quantity,
+  .card_horizontal_ecom {
+    width: 23rem;
+  }
+
+  .ecomm_btns {
+    padding: 0.7rem 0.5rem;
+  }
+
+  .card_headings h3 {
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+  }
+
+  .img_hori_ecom {
+    width: 8rem;
+  }
+
+  .hori_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .hori_footer .price_vertical {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .hori_footer .price_vertical .discount_price_vertical {
+    font-size: 16px;
+    margin-left: 0.5rem;
+  }
+
+  .hori_footer div .btn_secondary {
+    margin-left: 0;
   }
 }
