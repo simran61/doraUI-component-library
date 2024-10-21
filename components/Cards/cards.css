@@ -12,7 +12,10 @@ img {
   object-fit: cover;
 }
 
-.card_badge {
+.card_badge,
+.dismiss_card1,
+.dismiss_card2,
+.dismiss_card3 {
   position: relative;
 }
 
@@ -86,16 +89,21 @@ img {
 
 .dismiss {
   position: absolute;
-  top: 0.2rem;
+  top: 0.9rem;
   right: 1rem;
-  font-size: 2rem;
-  color: black;
+  font-size: 24px;
+  color: white;
   border-radius: 100%;
   font-weight: 500;
   cursor: pointer;
-  background: transparent;
+  background: var(--secondary-color);
   border: none;
   outline: none;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card_content {
@@ -405,7 +413,7 @@ img {
 
   .card_horizontal_ecom_quantity,
   .card_horizontal_ecom {
-    width: 23rem;
+    width: 20rem;
   }
 
   .ecomm_btns {
@@ -441,5 +449,21 @@ img {
 
   .hori_footer div .btn_secondary {
     margin-left: 0;
+  }
+
+  .card_links {
+    padding: 1rem 0;
+  }
+
+  .card_horizontal .card_links {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  .card_horizontal_ecom_quantity .ecomm_btns .btn {
+    margin: auto 0;
+  }
+
+  .card_horizontal_ecom .card_headings .hori_footer div .btn {
+    margin: 0.3rem 0.1rem;
   }
 }
